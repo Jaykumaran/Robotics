@@ -1,0 +1,56 @@
+<?xml version="1.0"?>
+<?xml-model href="http://download.ros.org/schema/package_format3.xsd" schematypens="http://www.w3.org/2001/XMLSchema"?>
+<package format="3">
+  <name>sim_cam_pkg</name>
+  <version>0.0.0</version>
+  <description>Simulated camera, detection, and tracking package</description>
+  <maintainer email="r1ajayakumaran1751994@gmail.com">jaykumaran</maintainer>
+  <license>Dummy license</license>
+  
+
+  <buildtool_depend>ament_cmake</buildtool_depend>
+
+  <!-- For custom messages, generating msg/srv -->
+  <!-- Need at build time-->
+  <buildtool_depend>rosidl_default_generators</buildtool_depend> 
+
+  <depend>rclcpp</depend>
+  <depend>rclpy</depend>  <!-- (Added by me) For Python nodes -->
+  <depend>sensor_msgs</depend>
+  <!-- For std_msgs/Header used in DetectionArray.msg -->
+  <depend>std_msgs</depend>
+
+  <depend>geometry_msgs</depend>    <!--For TrackedObject.msg (Point) -->
+
+  <!--  get_package_share_directory in Python -->
+  <depend>ament_index_python</depend>
+
+  <depend>cv_bridge</depend>
+  <depend>image_transport</depend>
+
+  <depend>message_filters</depend> # <!-- For Sub-Task 5a-->
+
+
+  <depend>ament_index_cpp</depend> <!-- Added for get_package_share_directory -->
+  
+  <!-- Execution dependencies for custom messages -->
+  <!-- need only at runtime -->
+  <exec_depend>rosidl_default_runtime</exec_depend>
+
+  <!-- System dependencies for OpenCV and NumPy in Python -->
+  <!-- To tell 'rosdep' what system packages are needed if someone tries to build your package from source -->
+  <exec_depend>python3-opencv</exec_depend>
+  <exec_depend>python3-numpy</exec_depend>
+
+  <test_depend>ament_lint_auto</test_depend>
+  <test_depend>ament_lint_common</test_depend>
+
+  <!-- This group is required for packages that define messages, services, or actions -->
+  <!-- Ref: https://docs.ros.org/en/humble/Tutorials/Beginner-Client-Libraries/Single-Package-Define-And-Use-Interface.html-->
+  <member_of_group>rosidl_interface_packages</member_of_group>
+
+
+  <export>
+    <build_type>ament_cmake</build_type>
+  </export>
+</package>
