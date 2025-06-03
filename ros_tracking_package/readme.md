@@ -73,6 +73,28 @@ Download the `src` scripts zip provided and place it under `ros_ws/`: [Drive Lin
 
 ### Run Instructions:
 
+### DOCKER
+
+```chmod +x docker-entrypoint.sh```
+
+```cd ~/ros2_ws/src/sim_cam_pkg/ ```
+
+```docker build -t ros_tracking:humble .```
+
+> docker run -it --rm \
+>     --name full_pipeline \
+>     --env="DISPLAY" \
+>     --env="QT_X11_NO_MITSHM=1" \
+>     --volume="/tmp/.X11-unix:/tmp/.X11-unix:rw" \
+>     ros_tracking:humble
+
+
+
+1) ***Need to fix docker onnx error.***
+2) X11 QT error (in my system)
+
+
+
 Build the package from main workspace `ros2_ws`:
 
 ```bash
