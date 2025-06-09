@@ -1,0 +1,25 @@
+[0.011s] Invoking command in '/home/jaykumaran/Robotics/monocular_slam_vo_ros/ros2_ws/build/slam_ros2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/jaykumaran/Robotics/monocular_slam_vo_ros/ros2_ws/build/slam_ros2 -- -j12 -l12
+[0.126s] [ 28%] Built target video_publisher_node
+[0.128s] [ 71%] Built target slam_core
+[0.143s] [35m[1mConsolidate compiler generated dependencies of target slam_node[0m
+[0.166s] [ 85%] [32mBuilding CXX object CMakeFiles/slam_node.dir/src/slam_node.cpp.o[0m
+[3.743s] [01m[K/home/jaykumaran/Robotics/monocular_slam_vo_ros/ros2_ws/src/slam_ros2/src/slam_node.cpp:[m[K In member function ‘[01m[Kvoid SlamNode::publish_results(const rclcpp::Time&)[m[K’:
+[3.743s] [01m[K/home/jaykumaran/Robotics/monocular_slam_vo_ros/ros2_ws/src/slam_ros2/src/slam_node.cpp:132:22:[m[K [01;31m[Kerror: [m[K‘[01m[KPoiInsertntCloud2Iterator[m[K’ is not a member of ‘[01m[Ksensor_msgs[m[K’; did you mean ‘[01m[KPointCloud2Iterator[m[K’?
+[3.743s]   132 |         sensor_msgs::[01;31m[KPoiInsertntCloud2Iterator[m[K<uint8_t> iter_b(cloud_msg, "b");
+[3.743s]       |                      [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[3.744s]       |                      [32m[KPointCloud2Iterator[m[K
+[3.744s] [01m[K/home/jaykumaran/Robotics/monocular_slam_vo_ros/ros2_ws/src/slam_ros2/src/slam_node.cpp:132:55:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K>[m[K’ token
+[3.744s]   132 |      sensor_msgs::PoiInsertntCloud2Iterator<uint8_t[01;31m[K>[m[K iter_b(cloud_msg, "b");
+[3.744s]       |                                                    [01;31m[K^[m[K
+[3.744s] 
+[3.751s] [01m[K/home/jaykumaran/Robotics/monocular_slam_vo_ros/ros2_ws/src/slam_ros2/src/slam_node.cpp:132:57:[m[K [01;31m[Kerror: [m[K‘[01m[Kiter_b[m[K’ was not declared in this scope; did you mean ‘[01m[Kiter_g[m[K’?
+[3.751s]   132 |    sensor_msgs::PoiInsertntCloud2Iterator<uint8_t> [01;31m[Kiter_b[m[K(cloud_msg, "b");
+[3.751s]       |                                                    [01;31m[K^~~~~~[m[K
+[3.751s]       |                                                    [32m[Kiter_g[m[K
+[3.764s] [01m[K/home/jaykumaran/Robotics/monocular_slam_vo_ros/ros2_ws/src/slam_ros2/src/slam_node.cpp:148:25:[m[K [01;31m[Kerror: [m[K‘[01m[KInsertiter_y[m[K’ was not declared in this scope
+[3.764s]   148 |             ++iter_x; ++[01;31m[KInsertiter_y[m[K; ++iter_z; ++iter_r;
+[3.764s]       |                         [01;31m[K^~~~~~~~~~~~[m[K
+[7.903s] gmake[2]: *** [CMakeFiles/slam_node.dir/build.make:76: CMakeFiles/slam_node.dir/src/slam_node.cpp.o] Error 1
+[7.903s] gmake[1]: *** [CMakeFiles/Makefile2:193: CMakeFiles/slam_node.dir/all] Error 2
+[7.903s] gmake: *** [Makefile:146: all] Error 2
+[7.906s] Invoked command in '/home/jaykumaran/Robotics/monocular_slam_vo_ros/ros2_ws/build/slam_ros2' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/jaykumaran/Robotics/monocular_slam_vo_ros/ros2_ws/build/slam_ros2 -- -j12 -l12

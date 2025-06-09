@@ -1,0 +1,33 @@
+[0.008s] Invoking command in '/home/jaykumaran/Robotics/monocular_slam_vo_ros/ros2_ws/build/slam_ros2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/jaykumaran/Robotics/monocular_slam_vo_ros/ros2_ws/build/slam_ros2 -- -j12 -l12
+[0.082s] [35m[1mConsolidate compiler generated dependencies of target slam_core[0m
+[0.112s] [ 14%] [32mBuilding CXX object CMakeFiles/video_publisher_node.dir/src/video_publisher_node.cpp.o[0m
+[0.138s] [ 57%] Built target slam_core
+[0.172s] [ 85%] Built target slam_node
+[5.704s] [100%] [32m[1mLinking CXX executable video_publisher_node[0m
+[6.047s] [100%] Built target video_publisher_node
+[6.060s] Invoked command in '/home/jaykumaran/Robotics/monocular_slam_vo_ros/ros2_ws/build/slam_ros2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/jaykumaran/Robotics/monocular_slam_vo_ros/ros2_ws/build/slam_ros2 -- -j12 -l12
+[6.070s] Invoking command in '/home/jaykumaran/Robotics/monocular_slam_vo_ros/ros2_ws/build/slam_ros2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/jaykumaran/Robotics/monocular_slam_vo_ros/ros2_ws/build/slam_ros2
+[6.086s] -- Install configuration: "Release"
+[6.087s] -- Execute custom install script
+[6.088s] -- Up-to-date symlink: /home/jaykumaran/Robotics/monocular_slam_vo_ros/ros2_ws/install/slam_ros2/lib/libslam_core.so
+[6.089s] -- Up-to-date symlink: /home/jaykumaran/Robotics/monocular_slam_vo_ros/ros2_ws/install/slam_ros2/lib/slam_ros2/video_publisher_node
+[6.089s] -- Up-to-date symlink: /home/jaykumaran/Robotics/monocular_slam_vo_ros/ros2_ws/install/slam_ros2/lib/slam_ros2/slam_node
+[6.090s] -- Up-to-date symlink: /home/jaykumaran/Robotics/monocular_slam_vo_ros/ros2_ws/install/slam_ros2/include/slam_ros2/slam_processor.hpp
+[6.090s] -- Up-to-date symlink: /home/jaykumaran/Robotics/monocular_slam_vo_ros/ros2_ws/install/slam_ros2/include/slam_ros2/types.hpp
+[6.091s] -- Up-to-date symlink: /home/jaykumaran/Robotics/monocular_slam_vo_ros/ros2_ws/install/slam_ros2/share/slam_ros2/launch/slam.launch.py
+[6.092s] -- Up-to-date symlink: /home/jaykumaran/Robotics/monocular_slam_vo_ros/ros2_ws/install/slam_ros2/share/ament_index/resource_index/package_run_dependencies/slam_ros2
+[6.092s] -- Up-to-date symlink: /home/jaykumaran/Robotics/monocular_slam_vo_ros/ros2_ws/install/slam_ros2/share/ament_index/resource_index/parent_prefix_path/slam_ros2
+[6.093s] -- Up-to-date symlink: /home/jaykumaran/Robotics/monocular_slam_vo_ros/ros2_ws/install/slam_ros2/share/slam_ros2/environment/ament_prefix_path.sh
+[6.094s] -- Up-to-date symlink: /home/jaykumaran/Robotics/monocular_slam_vo_ros/ros2_ws/install/slam_ros2/share/slam_ros2/environment/ament_prefix_path.dsv
+[6.094s] -- Up-to-date symlink: /home/jaykumaran/Robotics/monocular_slam_vo_ros/ros2_ws/install/slam_ros2/share/slam_ros2/environment/path.sh
+[6.095s] -- Up-to-date symlink: /home/jaykumaran/Robotics/monocular_slam_vo_ros/ros2_ws/install/slam_ros2/share/slam_ros2/environment/path.dsv
+[6.095s] -- Up-to-date symlink: /home/jaykumaran/Robotics/monocular_slam_vo_ros/ros2_ws/install/slam_ros2/share/slam_ros2/local_setup.bash
+[6.096s] -- Up-to-date symlink: /home/jaykumaran/Robotics/monocular_slam_vo_ros/ros2_ws/install/slam_ros2/share/slam_ros2/local_setup.sh
+[6.097s] -- Up-to-date symlink: /home/jaykumaran/Robotics/monocular_slam_vo_ros/ros2_ws/install/slam_ros2/share/slam_ros2/local_setup.zsh
+[6.097s] -- Up-to-date symlink: /home/jaykumaran/Robotics/monocular_slam_vo_ros/ros2_ws/install/slam_ros2/share/slam_ros2/local_setup.dsv
+[6.098s] -- Symlinking: /home/jaykumaran/Robotics/monocular_slam_vo_ros/ros2_ws/install/slam_ros2/share/slam_ros2/package.dsv
+[6.116s] -- Up-to-date symlink: /home/jaykumaran/Robotics/monocular_slam_vo_ros/ros2_ws/install/slam_ros2/share/ament_index/resource_index/packages/slam_ros2
+[6.117s] -- Up-to-date symlink: /home/jaykumaran/Robotics/monocular_slam_vo_ros/ros2_ws/install/slam_ros2/share/slam_ros2/cmake/slam_ros2Config.cmake
+[6.117s] -- Up-to-date symlink: /home/jaykumaran/Robotics/monocular_slam_vo_ros/ros2_ws/install/slam_ros2/share/slam_ros2/cmake/slam_ros2Config-version.cmake
+[6.117s] -- Up-to-date symlink: /home/jaykumaran/Robotics/monocular_slam_vo_ros/ros2_ws/install/slam_ros2/share/slam_ros2/package.xml
+[6.119s] Invoked command in '/home/jaykumaran/Robotics/monocular_slam_vo_ros/ros2_ws/build/slam_ros2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/jaykumaran/Robotics/monocular_slam_vo_ros/ros2_ws/build/slam_ros2

@@ -1,0 +1,1 @@
+/home/jaykumaran/Robotics/monocular_slam_vo_ros/ros2_ws/build/slam_ros2/ament_cmake_environment_hooks/local_setup.sh
