@@ -1,4 +1,18 @@
 
+
+
+
+```bash
+source install/setup.bash
+ros2 launch slam_ros2 slam.launch.py
+```
+
+
+
+
+
+
+
 ## Errors:
 
 he package.xml should contain the abstract key g2o. The g2o_rosdep.yaml file is what translates that key into the actual package name that apt-cache search found.
