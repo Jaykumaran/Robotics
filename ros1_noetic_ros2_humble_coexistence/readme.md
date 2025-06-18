@@ -11,7 +11,7 @@ Recommended to go through the following repo, if your use case is that, I wanted
 Original Ref: https://github.com/lesaf92/ros_noetic_ubuntu22 
 
 ```bash
-# 🔧 Prerequisites
+# Prerequisites
 sudo apt-get update
 sudo apt-get install htop python3-pip net-tools curl
 
@@ -22,7 +22,7 @@ bash Miniforge3-25.3.0-3-Linux-x86_64.sh
 
 # Restart your terminal, then:
 
-# 🧪 Install ROS Noetic via RoboStack
+# Install ROS Noetic via RoboStack
 mamba create -n ros_env python=3.9 -c conda-forge
 mamba activate ros_env
 
@@ -38,7 +38,7 @@ mamba install rosdep
 sudo rosdep init
 rosdep update
 
-# 🔒 Prevent ROS 2 Humble Conflicts Inside ros_env
+#  Prevent ROS 2 Humble Conflicts Inside ros_env
 mkdir -p $CONDA_PREFIX/etc/conda/activate.d
 nano $CONDA_PREFIX/etc/conda/activate.d/cleanup_ros2.sh
 
@@ -56,7 +56,7 @@ fi
 
 chmod +x $CONDA_PREFIX/etc/conda/activate.d/cleanup_ros2.sh
 
-# 🧠 Global ROS 2 Humble Setup in ~/.bashrc
+#  Global ROS 2 Humble Setup in ~/.bashrc
 echo "source /opt/ros/humble/setup.bash" >> ~/.bashrc
 
 # 🔁 Aliases to switch environments
@@ -75,7 +75,7 @@ conda install -c robostack ros-noetic-move-base
 conda install -c robostack ros-noetic-map-server
 conda install -c robostack ros-noetic-turtlebot3-teleop
 
-# 🛠️ Create Catkin Workspace
+#  Create Catkin Workspace
 mkdir -p ~/catkin_ws/src
 cd ~/catkin_ws/src
 catkin_init_workspace
@@ -85,7 +85,7 @@ catkin_make
 echo "source ~/catkin_ws/devel/setup.bash" >> ~/.bashrc
 source ~/.bashrc
 
-# 🚀 Use Custom Package (e.g. rmp_2023)
+#  Use Custom Package (e.g. rmp_2023)
 cd ~/catkin_ws/src
 git clone https://github.com/lesaf92/ros_noetic_ubuntu22.git
 cd ros_noetic_ubuntu22/
@@ -99,7 +99,7 @@ catkin_make
 ### Run test
 roslaunch rmp_2023 rmp_test.launch
 
-# 🧭 Summary of Usage
+#  Summary of Usage
 
 # Task                      | Command
 # --------------------------|----------------------------------------------
@@ -131,7 +131,7 @@ roslaunch rmp_2023 rmp_test.launch
 # Cause: You may have removed ROS 2 sourcing from .bashrc
 # Fix: Use alias use_ros2 to manually source ROS 2 only when needed
 
-# 📝 Notes
+# General Instructions
 
 # - Do not source /opt/ros/humble/setup.bash while inside ros_env.
 # - Never mix ROS 1 and ROS 2 environments in the same terminal session.
