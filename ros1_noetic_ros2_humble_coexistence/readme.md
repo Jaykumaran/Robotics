@@ -87,11 +87,16 @@ source ~/.bashrc
 
 # 🚀 Use Custom Package (e.g. rmp_2023)
 cd ~/catkin_ws/src
-git clone <your_repo_url_containing_rmp_2023>
+git clone https://github.com/lesaf92/ros_noetic_ubuntu22.git
+cd ros_noetic_ubuntu22/
+### Should be under catkin_ws/src/
+mv rmp_2023/ ..
 
+# Get back to 
 cd ~/catkin_ws
+# Build again
 catkin_make
-
+### Run test
 roslaunch rmp_2023 rmp_test.launch
 
 # 🧭 Summary of Usage
