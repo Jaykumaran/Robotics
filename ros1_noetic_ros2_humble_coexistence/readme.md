@@ -1,5 +1,9 @@
 # ROS Noetic on Ubuntu 22.04 with ROS 2 Humble Coexistence
 
+While one could simply say, “Just use Docker”, yes, totally valid!
+
+Still, let’s explore another approach without Docker.
+
 This guide explains how to install **ROS Noetic** using **RoboStack (via Mamba/Conda)** on **Ubuntu 22.04**, while keeping **ROS 2 Humble** installed globally in `/opt/ros/humble`. ROS 2 is the default environment; ROS Noetic is activated via Conda when needed, ensuring clean separation.
 
 Recommended to go through the following repo, if your use case is that, I wanted both ros2 and ros1, so I adapted this:
