@@ -10,7 +10,7 @@ def generate_launch_description():
     focal_length = 525.0
 
     # RViz configuration file
-        # --- Automatically find the rviz config file ---
+    # --- Automatically find the rviz config file ---
     pkg_dir = get_package_share_directory('slam_ros2')
     rviz_config_file = os.path.join(pkg_dir, 'rviz', 'slam.rviz')
 
