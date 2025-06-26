@@ -4,6 +4,8 @@
 
 This ROS2 package (`slam_ros2`) implements a feature-based monocular Visual SLAM (Simultaneous Localization and Mapping) system. The project processes a simulated camera feed from a video file, reconstructs the camera's trajectory, and builds a 3D map of the environment. The core SLAM logic is self-contained and communicates with the ROS2 ecosystem for data input and visualization.
 
+Adapting: [Simple SLAM C++ By gpdaniels](https://github.com/gpdaniels/slam/tree/master)
+
 **Key Features**:
 
 -   [x] **Video Publisher**: A node to publish video frames and camera info, simulating a live camera feed.

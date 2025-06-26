@@ -1,7 +1,23 @@
-# Ignore Python bytecode
-__pycache__/
-*.py[cod]
+# ROS2 colcon build artifacts
+build/
+install/
+log/
 
-# Ignore VSCode settings
+# ROS2-specific log and intermediate files
+*.log
+*.pyc
+__pycache__/
+
+# ROS2 workspace-specific logs and builds
+ros_tracking_package/ros2_ws/build/
+ros_tracking_package/ros2_ws/install/
+ros_tracking_package/ros2_ws/log/
+
+# Editor/OS-specific files
+.DS_Store
+*.swp
+*.swo
+
+# If you're using vscode
 .vscode/
 
