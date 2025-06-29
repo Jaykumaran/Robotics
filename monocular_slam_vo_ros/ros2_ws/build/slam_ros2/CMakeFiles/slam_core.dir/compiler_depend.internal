@@ -423,7 +423,7 @@ CMakeFiles/slam_core.dir/src/map.cpp.o
  /usr/include/opencv4/opencv2/video.hpp
  /usr/include/opencv4/opencv2/video/tracking.hpp
  /usr/include/opencv4/opencv2/video/background_segm.hpp
- /opt/ros/humble/include/g2o/core/block_solver.h
+ /usr/local/include/g2o/core/block_solver.h
  /usr/include/eigen3/Eigen/Core
  /usr/include/eigen3/Eigen/src/Core/util/DisableStupidWarnings.h
  /usr/include/eigen3/Eigen/src/Core/util/Macros.h
@@ -554,22 +554,20 @@ CMakeFiles/slam_core.dir/src/map.cpp.o
  /usr/include/eigen3/Eigen/src/Core/StlIterators.h
  /usr/include/eigen3/Eigen/src/Core/GlobalFunctions.h
  /usr/include/eigen3/Eigen/src/Core/util/ReenableStupidWarnings.h
- /opt/ros/humble/include/g2o/core/dynamic_aligned_buffer.hpp
- /opt/ros/humble/include/g2o/config.h
- /opt/ros/humble/include/g2o/core/linear_solver.h
- /opt/ros/humble/include/g2o/core/marginal_covariance_cholesky.h
- /opt/ros/humble/include/g2o/core/g2o_core_api.h
- /opt/ros/humble/include/g2o/core/sparse_block_matrix.h
+ /usr/local/include/g2o/core/dynamic_aligned_buffer.hpp
+ /usr/local/include/g2o/config.h
+ /usr/local/include/g2o/core/linear_solver.h
+ /usr/local/include/g2o/core/marginal_covariance_cholesky.h
+ /usr/local/include/g2o/core/g2o_core_api.h
+ /usr/local/include/g2o/core/sparse_block_matrix.h
  /usr/include/c++/11/fstream
  /usr/include/x86_64-linux-gnu/c++/11/bits/basic_file.h
  /usr/include/x86_64-linux-gnu/c++/11/bits/c++io.h
  /usr/include/c++/11/bits/fstream.tcc
- /opt/ros/humble/include/g2o/stuff/misc.h
- /opt/ros/humble/include/g2o/stuff/macros.h
- /opt/ros/humble/include/g2o/stuff/sparse_helper.h
- /opt/ros/humble/include/g2o/stuff/g2o_stuff_api.h
- /opt/ros/humble/include/g2o/core/matrix_operations.h
- /opt/ros/humble/include/g2o/core/eigen_types.h
+ /usr/local/include/g2o/stuff/sparse_helper.h
+ /usr/local/include/g2o/stuff/g2o_stuff_api.h
+ /usr/local/include/g2o/core/matrix_operations.h
+ /usr/local/include/g2o/core/eigen_types.h
  /usr/include/eigen3/Eigen/Geometry
  /usr/include/eigen3/Eigen/Core
  /usr/include/eigen3/Eigen/SVD
@@ -615,33 +613,54 @@ CMakeFiles/slam_core.dir/src/map.cpp.o
  /usr/include/eigen3/Eigen/src/Geometry/AlignedBox.h
  /usr/include/eigen3/Eigen/src/Geometry/Umeyama.h
  /usr/include/eigen3/Eigen/src/Geometry/arch/Geometry_SIMD.h
- /opt/ros/humble/include/g2o/core/matrix_structure.h
- /opt/ros/humble/include/g2o/core/sparse_block_matrix_ccs.h
- /opt/ros/humble/include/g2o/core/sparse_block_matrix.hpp
- /opt/ros/humble/include/g2o/core/openmp_mutex.h
- /opt/ros/humble/include/g2o/core/solver.h
- /opt/ros/humble/include/g2o/core/hyper_graph.h
+ /usr/local/include/g2o/core/matrix_structure.h
+ /usr/local/include/g2o/core/sparse_block_matrix_ccs.h
+ /usr/local/include/g2o/core/sparse_block_matrix.hpp
+ /usr/local/include/g2o/core/openmp_mutex.h
+ /usr/local/include/g2o/core/solver.h
+ /usr/local/include/g2o/core/hyper_graph.h
  /usr/include/c++/11/bitset
- /opt/ros/humble/include/g2o/core/sparse_block_matrix_diagonal.h
- /opt/ros/humble/include/g2o/core/block_solver.hpp
+ /usr/local/include/g2o/core/sparse_block_matrix_diagonal.h
+ /usr/local/include/g2o/core/block_solver.hpp
  /usr/include/eigen3/Eigen/LU
- /opt/ros/humble/include/g2o/stuff/macros.h
- /opt/ros/humble/include/g2o/stuff/timeutil.h
- /opt/ros/humble/include/g2o/core/sparse_optimizer.h
- /opt/ros/humble/include/g2o/core/batch_stats.h
- /opt/ros/humble/include/g2o/core/optimizable_graph.h
- /opt/ros/humble/include/g2o/core/io_helper.h
- /opt/ros/humble/include/g2o/core/jacobian_workspace.h
- /opt/ros/humble/include/g2o/core/parameter.h
- /opt/ros/humble/include/g2o/core/parameter_container.h
- /opt/ros/humble/include/g2o/core/optimization_algorithm_levenberg.h
- /opt/ros/humble/include/g2o/core/optimization_algorithm_with_hessian.h
- /opt/ros/humble/include/g2o/core/optimization_algorithm.h
- /opt/ros/humble/include/g2o/stuff/property.h
- /opt/ros/humble/include/g2o/stuff/string_tools.h
- /opt/ros/humble/include/g2o/core/robust_kernel_impl.h
- /opt/ros/humble/include/g2o/core/robust_kernel.h
- /opt/ros/humble/include/g2o/solvers/eigen/linear_solver_eigen.h
+ /usr/local/include/g2o/stuff/logger.h
+ /usr/local/include/g2o/stuff/g2o_stuff_api.h
+ /usr/include/spdlog/spdlog.h
+ /usr/include/spdlog/common.h
+ /usr/include/spdlog/tweakme.h
+ /usr/include/spdlog/details/null_mutex.h
+ /usr/include/spdlog/fmt/fmt.h
+ /usr/include/fmt/core.h
+ /usr/include/c++/11/iterator
+ /usr/include/c++/11/bits/stream_iterator.h
+ /usr/include/fmt/format.h
+ /usr/include/fmt/core.h
+ /usr/include/spdlog/details/registry.h
+ /usr/include/spdlog/logger.h
+ /usr/include/spdlog/details/log_msg.h
+ /usr/include/spdlog/details/backtracer.h
+ /usr/include/spdlog/details/log_msg_buffer.h
+ /usr/include/spdlog/details/circular_q.h
+ /usr/include/spdlog/version.h
+ /usr/include/spdlog/details/synchronous_factory.h
+ /usr/local/include/g2o/stuff/macros.h
+ /usr/local/include/g2o/stuff/misc.h
+ /usr/local/include/g2o/stuff/timeutil.h
+ /usr/local/include/g2o/core/sparse_optimizer.h
+ /usr/local/include/g2o/core/batch_stats.h
+ /usr/local/include/g2o/core/optimizable_graph.h
+ /usr/local/include/g2o/core/io_helper.h
+ /usr/local/include/g2o/core/jacobian_workspace.h
+ /usr/local/include/g2o/core/parameter.h
+ /usr/local/include/g2o/core/parameter_container.h
+ /usr/local/include/g2o/core/optimization_algorithm_levenberg.h
+ /usr/local/include/g2o/core/optimization_algorithm_with_hessian.h
+ /usr/local/include/g2o/core/optimization_algorithm.h
+ /usr/local/include/g2o/stuff/property.h
+ /usr/local/include/g2o/stuff/string_tools.h
+ /usr/local/include/g2o/core/robust_kernel_impl.h
+ /usr/local/include/g2o/core/robust_kernel.h
+ /usr/local/include/g2o/solvers/eigen/linear_solver_eigen.h
  /usr/include/eigen3/Eigen/Sparse
  /usr/include/eigen3/Eigen/SparseCore
  /usr/include/eigen3/Eigen/src/SparseCore/SparseUtil.h
@@ -716,18 +735,18 @@ CMakeFiles/slam_core.dir/src/map.cpp.o
  /usr/include/eigen3/Eigen/src/IterativeLinearSolvers/IncompleteLUT.h
  /usr/include/eigen3/Eigen/src/IterativeLinearSolvers/IncompleteCholesky.h
  /usr/include/eigen3/Eigen/SparseCholesky
- /opt/ros/humble/include/g2o/core/batch_stats.h
- /opt/ros/humble/include/g2o/core/linear_solver.h
- /opt/ros/humble/include/g2o/types/sba/types_six_dof_expmap.h
- /opt/ros/humble/include/g2o/types/sba/edge_project_psi2uv.h
- /opt/ros/humble/include/g2o/core/base_fixed_sized_edge.h
- /opt/ros/humble/include/g2o/EXTERNAL/ceres/fixed_array.h
- /opt/ros/humble/include/g2o/EXTERNAL/ceres/memory.h
- /opt/ros/humble/include/g2o/core/base_edge.h
- /opt/ros/humble/include/g2o/stuff/tuple_tools.h
- /opt/ros/humble/include/g2o/core/base_fixed_sized_edge.hpp
- /opt/ros/humble/include/g2o/types/slam3d/vertex_pointxyz.h
- /opt/ros/humble/include/g2o/core/base_vertex.h
+ /usr/local/include/g2o/core/batch_stats.h
+ /usr/local/include/g2o/core/linear_solver.h
+ /usr/local/include/g2o/types/sba/types_six_dof_expmap.h
+ /usr/local/include/g2o/types/sba/edge_project_psi2uv.h
+ /usr/local/include/g2o/core/base_fixed_sized_edge.h
+ /usr/local/include/g2o/core/base_edge.h
+ /usr/local/include/g2o/autodiff/fixed_array.h
+ /usr/local/include/g2o/autodiff/memory.h
+ /usr/local/include/g2o/stuff/tuple_tools.h
+ /usr/local/include/g2o/core/base_fixed_sized_edge.hpp
+ /usr/local/include/g2o/types/slam3d/vertex_pointxyz.h
+ /usr/local/include/g2o/core/base_vertex.h
  /usr/include/eigen3/Eigen/Cholesky
  /usr/include/eigen3/Eigen/Dense
  /usr/include/eigen3/Eigen/Geometry
@@ -750,27 +769,26 @@ CMakeFiles/slam_core.dir/src/map.cpp.o
  /usr/include/eigen3/Eigen/src/Eigenvalues/MatrixBaseEigenvalues.h
  /usr/include/c++/11/stack
  /usr/include/c++/11/bits/stl_stack.h
- /opt/ros/humble/include/g2o/core/creators.h
- /opt/ros/humble/include/g2o/core/base_vertex.hpp
- /opt/ros/humble/include/g2o/core/hyper_graph_action.h
- /opt/ros/humble/include/g2o/types/slam3d/g2o_types_slam3d_api.h
- /opt/ros/humble/include/g2o/types/sba/g2o_types_sba_api.h
- /opt/ros/humble/include/g2o/types/sba/parameter_cameraparameters.h
- /opt/ros/humble/include/g2o/core/parameter.h
- /opt/ros/humble/include/g2o/types/sba/vertex_se3_expmap.h
- /opt/ros/humble/include/g2o/types/slam3d/se3quat.h
- /opt/ros/humble/include/g2o/types/slam3d/se3_ops.h
- /opt/ros/humble/include/g2o/types/slam3d/se3_ops.hpp
- /opt/ros/humble/include/g2o/types/sba/edge_project_stereo_xyz.h
- /opt/ros/humble/include/g2o/core/base_binary_edge.h
- /opt/ros/humble/include/g2o/core/base_fixed_sized_edge.h
- /opt/ros/humble/include/g2o/types/sba/edge_project_stereo_xyz_onlypose.h
- /opt/ros/humble/include/g2o/core/base_unary_edge.h
- /opt/ros/humble/include/g2o/types/sba/edge_project_xyz.h
- /opt/ros/humble/include/g2o/types/sba/edge_project_xyz2uv.h
- /opt/ros/humble/include/g2o/types/sba/edge_project_xyz2uvu.h
- /opt/ros/humble/include/g2o/types/sba/edge_project_xyz_onlypose.h
- /opt/ros/humble/include/g2o/types/sba/edge_se3_expmap.h
+ /usr/local/include/g2o/core/base_vertex.hpp
+ /usr/local/include/g2o/core/hyper_graph_action.h
+ /usr/local/include/g2o/types/slam3d/g2o_types_slam3d_api.h
+ /usr/local/include/g2o/types/sba/g2o_types_sba_api.h
+ /usr/local/include/g2o/types/sba/parameter_cameraparameters.h
+ /usr/local/include/g2o/core/parameter.h
+ /usr/local/include/g2o/types/sba/vertex_se3_expmap.h
+ /usr/local/include/g2o/types/slam3d/se3quat.h
+ /usr/local/include/g2o/types/slam3d/se3_ops.h
+ /usr/local/include/g2o/types/slam3d/se3_ops.hpp
+ /usr/local/include/g2o/types/sba/edge_project_stereo_xyz.h
+ /usr/local/include/g2o/core/base_binary_edge.h
+ /usr/local/include/g2o/core/base_fixed_sized_edge.h
+ /usr/local/include/g2o/types/sba/edge_project_stereo_xyz_onlypose.h
+ /usr/local/include/g2o/core/base_unary_edge.h
+ /usr/local/include/g2o/types/sba/edge_project_xyz.h
+ /usr/local/include/g2o/types/sba/edge_project_xyz2uv.h
+ /usr/local/include/g2o/types/sba/edge_project_xyz2uvu.h
+ /usr/local/include/g2o/types/sba/edge_project_xyz_onlypose.h
+ /usr/local/include/g2o/types/sba/edge_se3_expmap.h
 
 CMakeFiles/slam_core.dir/src/slam_processor.cpp.o
  /home/jaykumaran/Robotics/monocular_slam_vo_ros/ros2_ws/src/slam_ros2/src/slam_processor.cpp

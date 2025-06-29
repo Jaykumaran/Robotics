@@ -376,6 +376,12 @@ Current track is matched with active tracks using  **Simple Greedy Approach**
 
 ---
 
+#### Caveats
+
+- If you run into problem related to YOLO11 onnx, simply upgrade opencv-python to the latest version (4.11) to successfully compile the DNN layers system-wide.
+
+`pip install opencv-python`
+
 #### To Do 
 
 - [ ] Make node parameters more configurable from launch file

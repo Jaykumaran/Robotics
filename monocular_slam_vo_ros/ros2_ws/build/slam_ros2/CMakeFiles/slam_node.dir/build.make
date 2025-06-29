@@ -93,7 +93,7 @@ slam_node_EXTERNAL_OBJECTS =
 slam_node: CMakeFiles/slam_node.dir/src/slam_node.cpp.o
 slam_node: CMakeFiles/slam_node.dir/build.make
 slam_node: libslam_core.so
-slam_node: /opt/ros/humble/lib/x86_64-linux-gnu/libg2o_types_sba.so
+slam_node: /usr/local/lib/libg2o_types_sba.so.0.2.0
 slam_node: /opt/ros/humble/lib/libcv_bridge.so
 slam_node: /opt/ros/humble/lib/libsensor_msgs__rosidl_typesupport_fastrtps_c.so
 slam_node: /opt/ros/humble/lib/libsensor_msgs__rosidl_typesupport_fastrtps_cpp.so
@@ -106,12 +106,9 @@ slam_node: /opt/ros/humble/lib/libnav_msgs__rosidl_typesupport_introspection_c.s
 slam_node: /opt/ros/humble/lib/libnav_msgs__rosidl_typesupport_introspection_cpp.so
 slam_node: /opt/ros/humble/lib/libnav_msgs__rosidl_typesupport_cpp.so
 slam_node: /opt/ros/humble/lib/libnav_msgs__rosidl_generator_py.so
-slam_node: /opt/ros/humble/lib/x86_64-linux-gnu/libg2o_types_slam3d.so
-slam_node: /opt/ros/humble/lib/x86_64-linux-gnu/libg2o_core.so
-slam_node: /opt/ros/humble/lib/x86_64-linux-gnu/libg2o_stuff.so
-slam_node: /opt/ros/humble/lib/x86_64-linux-gnu/libg2o_opengl_helper.so
-slam_node: /usr/lib/x86_64-linux-gnu/libGLU.so
-slam_node: /usr/lib/x86_64-linux-gnu/libGL.so
+slam_node: /usr/local/lib/libg2o_types_slam3d.so.0.2.0
+slam_node: /usr/local/lib/libg2o_core.so.0.2.0
+slam_node: /usr/local/lib/libg2o_stuff.so.0.2.0
 slam_node: /opt/ros/humble/lib/libnav_msgs__rosidl_typesupport_c.so
 slam_node: /opt/ros/humble/lib/libnav_msgs__rosidl_generator_c.so
 slam_node: /usr/lib/x86_64-linux-gnu/libopencv_stitching.so.4.5.4d
@@ -210,6 +207,8 @@ slam_node: /opt/ros/humble/lib/libtracetools.so
 slam_node: /opt/ros/humble/lib/librmw_implementation.so
 slam_node: /opt/ros/humble/lib/libament_index_cpp.so
 slam_node: /opt/ros/humble/lib/librcl_logging_spdlog.so
+slam_node: /usr/lib/x86_64-linux-gnu/libspdlog.so.1.9.2
+slam_node: /usr/lib/x86_64-linux-gnu/libfmt.so.8.1.1
 slam_node: /opt/ros/humble/lib/librcl_logging_interface.so
 slam_node: /opt/ros/humble/lib/libtf2_msgs__rosidl_typesupport_fastrtps_c.so
 slam_node: /opt/ros/humble/lib/libgeometry_msgs__rosidl_typesupport_fastrtps_c.so

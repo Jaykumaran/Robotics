@@ -1,4 +1,0 @@
-[35m[1mConsolidate compiler generated dependencies of target video_publisher_node[0m
-[ 42%] Built target slam_core
-[ 71%] Built target video_publisher_node
-[ 85%] [32mBuilding CXX object CMakeFiles/slam_node.dir/src/slam_node.cpp.o[0m

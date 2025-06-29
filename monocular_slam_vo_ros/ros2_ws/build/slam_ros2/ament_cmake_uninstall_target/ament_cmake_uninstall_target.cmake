@@ -55,6 +55,3 @@ endforeach()
 message(STATUS "Execute custom uninstall script")
 
 # begin of custom uninstall code
-
-# uninstall files installed using the symlink install functions
-include("/home/jaykumaran/Robotics/monocular_slam_vo_ros/ros2_ws/build/slam_ros2/ament_cmake_symlink_install/ament_cmake_symlink_install_uninstall_script.cmake")

@@ -1,2 +1,0 @@
-Invoking command in '/home/jaykumaran/Robotics/monocular_slam_vo_ros/ros2_ws/build/slam_ros2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/jaykumaran/Robotics/monocular_slam_vo_ros/ros2_ws/build/slam_ros2 -- -j12 -l12
-Invoked command in '/home/jaykumaran/Robotics/monocular_slam_vo_ros/ros2_ws/build/slam_ros2' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/jaykumaran/Robotics/monocular_slam_vo_ros/ros2_ws/build/slam_ros2 -- -j12 -l12

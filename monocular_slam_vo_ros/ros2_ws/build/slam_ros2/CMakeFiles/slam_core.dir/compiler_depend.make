@@ -422,7 +422,7 @@ CMakeFiles/slam_core.dir/src/map.cpp.o: /home/jaykumaran/Robotics/monocular_slam
   /usr/include/opencv4/opencv2/video.hpp \
   /usr/include/opencv4/opencv2/video/tracking.hpp \
   /usr/include/opencv4/opencv2/video/background_segm.hpp \
-  /opt/ros/humble/include/g2o/core/block_solver.h \
+  /usr/local/include/g2o/core/block_solver.h \
   /usr/include/eigen3/Eigen/Core \
   /usr/include/eigen3/Eigen/src/Core/util/DisableStupidWarnings.h \
   /usr/include/eigen3/Eigen/src/Core/util/Macros.h \
@@ -553,22 +553,20 @@ CMakeFiles/slam_core.dir/src/map.cpp.o: /home/jaykumaran/Robotics/monocular_slam
   /usr/include/eigen3/Eigen/src/Core/StlIterators.h \
   /usr/include/eigen3/Eigen/src/Core/GlobalFunctions.h \
   /usr/include/eigen3/Eigen/src/Core/util/ReenableStupidWarnings.h \
-  /opt/ros/humble/include/g2o/core/dynamic_aligned_buffer.hpp \
-  /opt/ros/humble/include/g2o/config.h \
-  /opt/ros/humble/include/g2o/core/linear_solver.h \
-  /opt/ros/humble/include/g2o/core/marginal_covariance_cholesky.h \
-  /opt/ros/humble/include/g2o/core/g2o_core_api.h \
-  /opt/ros/humble/include/g2o/core/sparse_block_matrix.h \
+  /usr/local/include/g2o/core/dynamic_aligned_buffer.hpp \
+  /usr/local/include/g2o/config.h \
+  /usr/local/include/g2o/core/linear_solver.h \
+  /usr/local/include/g2o/core/marginal_covariance_cholesky.h \
+  /usr/local/include/g2o/core/g2o_core_api.h \
+  /usr/local/include/g2o/core/sparse_block_matrix.h \
   /usr/include/c++/11/fstream \
   /usr/include/x86_64-linux-gnu/c++/11/bits/basic_file.h \
   /usr/include/x86_64-linux-gnu/c++/11/bits/c++io.h \
   /usr/include/c++/11/bits/fstream.tcc \
-  /opt/ros/humble/include/g2o/stuff/misc.h \
-  /opt/ros/humble/include/g2o/stuff/macros.h \
-  /opt/ros/humble/include/g2o/stuff/sparse_helper.h \
-  /opt/ros/humble/include/g2o/stuff/g2o_stuff_api.h \
-  /opt/ros/humble/include/g2o/core/matrix_operations.h \
-  /opt/ros/humble/include/g2o/core/eigen_types.h \
+  /usr/local/include/g2o/stuff/sparse_helper.h \
+  /usr/local/include/g2o/stuff/g2o_stuff_api.h \
+  /usr/local/include/g2o/core/matrix_operations.h \
+  /usr/local/include/g2o/core/eigen_types.h \
   /usr/include/eigen3/Eigen/Geometry \
   /usr/include/eigen3/Eigen/Core \
   /usr/include/eigen3/Eigen/SVD \
@@ -614,33 +612,54 @@ CMakeFiles/slam_core.dir/src/map.cpp.o: /home/jaykumaran/Robotics/monocular_slam
   /usr/include/eigen3/Eigen/src/Geometry/AlignedBox.h \
   /usr/include/eigen3/Eigen/src/Geometry/Umeyama.h \
   /usr/include/eigen3/Eigen/src/Geometry/arch/Geometry_SIMD.h \
-  /opt/ros/humble/include/g2o/core/matrix_structure.h \
-  /opt/ros/humble/include/g2o/core/sparse_block_matrix_ccs.h \
-  /opt/ros/humble/include/g2o/core/sparse_block_matrix.hpp \
-  /opt/ros/humble/include/g2o/core/openmp_mutex.h \
-  /opt/ros/humble/include/g2o/core/solver.h \
-  /opt/ros/humble/include/g2o/core/hyper_graph.h \
+  /usr/local/include/g2o/core/matrix_structure.h \
+  /usr/local/include/g2o/core/sparse_block_matrix_ccs.h \
+  /usr/local/include/g2o/core/sparse_block_matrix.hpp \
+  /usr/local/include/g2o/core/openmp_mutex.h \
+  /usr/local/include/g2o/core/solver.h \
+  /usr/local/include/g2o/core/hyper_graph.h \
   /usr/include/c++/11/bitset \
-  /opt/ros/humble/include/g2o/core/sparse_block_matrix_diagonal.h \
-  /opt/ros/humble/include/g2o/core/block_solver.hpp \
+  /usr/local/include/g2o/core/sparse_block_matrix_diagonal.h \
+  /usr/local/include/g2o/core/block_solver.hpp \
   /usr/include/eigen3/Eigen/LU \
-  /opt/ros/humble/include/g2o/stuff/macros.h \
-  /opt/ros/humble/include/g2o/stuff/timeutil.h \
-  /opt/ros/humble/include/g2o/core/sparse_optimizer.h \
-  /opt/ros/humble/include/g2o/core/batch_stats.h \
-  /opt/ros/humble/include/g2o/core/optimizable_graph.h \
-  /opt/ros/humble/include/g2o/core/io_helper.h \
-  /opt/ros/humble/include/g2o/core/jacobian_workspace.h \
-  /opt/ros/humble/include/g2o/core/parameter.h \
-  /opt/ros/humble/include/g2o/core/parameter_container.h \
-  /opt/ros/humble/include/g2o/core/optimization_algorithm_levenberg.h \
-  /opt/ros/humble/include/g2o/core/optimization_algorithm_with_hessian.h \
-  /opt/ros/humble/include/g2o/core/optimization_algorithm.h \
-  /opt/ros/humble/include/g2o/stuff/property.h \
-  /opt/ros/humble/include/g2o/stuff/string_tools.h \
-  /opt/ros/humble/include/g2o/core/robust_kernel_impl.h \
-  /opt/ros/humble/include/g2o/core/robust_kernel.h \
-  /opt/ros/humble/include/g2o/solvers/eigen/linear_solver_eigen.h \
+  /usr/local/include/g2o/stuff/logger.h \
+  /usr/local/include/g2o/stuff/g2o_stuff_api.h \
+  /usr/include/spdlog/spdlog.h \
+  /usr/include/spdlog/common.h \
+  /usr/include/spdlog/tweakme.h \
+  /usr/include/spdlog/details/null_mutex.h \
+  /usr/include/spdlog/fmt/fmt.h \
+  /usr/include/fmt/core.h \
+  /usr/include/c++/11/iterator \
+  /usr/include/c++/11/bits/stream_iterator.h \
+  /usr/include/fmt/format.h \
+  /usr/include/fmt/core.h \
+  /usr/include/spdlog/details/registry.h \
+  /usr/include/spdlog/logger.h \
+  /usr/include/spdlog/details/log_msg.h \
+  /usr/include/spdlog/details/backtracer.h \
+  /usr/include/spdlog/details/log_msg_buffer.h \
+  /usr/include/spdlog/details/circular_q.h \
+  /usr/include/spdlog/version.h \
+  /usr/include/spdlog/details/synchronous_factory.h \
+  /usr/local/include/g2o/stuff/macros.h \
+  /usr/local/include/g2o/stuff/misc.h \
+  /usr/local/include/g2o/stuff/timeutil.h \
+  /usr/local/include/g2o/core/sparse_optimizer.h \
+  /usr/local/include/g2o/core/batch_stats.h \
+  /usr/local/include/g2o/core/optimizable_graph.h \
+  /usr/local/include/g2o/core/io_helper.h \
+  /usr/local/include/g2o/core/jacobian_workspace.h \
+  /usr/local/include/g2o/core/parameter.h \
+  /usr/local/include/g2o/core/parameter_container.h \
+  /usr/local/include/g2o/core/optimization_algorithm_levenberg.h \
+  /usr/local/include/g2o/core/optimization_algorithm_with_hessian.h \
+  /usr/local/include/g2o/core/optimization_algorithm.h \
+  /usr/local/include/g2o/stuff/property.h \
+  /usr/local/include/g2o/stuff/string_tools.h \
+  /usr/local/include/g2o/core/robust_kernel_impl.h \
+  /usr/local/include/g2o/core/robust_kernel.h \
+  /usr/local/include/g2o/solvers/eigen/linear_solver_eigen.h \
   /usr/include/eigen3/Eigen/Sparse \
   /usr/include/eigen3/Eigen/SparseCore \
   /usr/include/eigen3/Eigen/src/SparseCore/SparseUtil.h \
@@ -715,18 +734,18 @@ CMakeFiles/slam_core.dir/src/map.cpp.o: /home/jaykumaran/Robotics/monocular_slam
   /usr/include/eigen3/Eigen/src/IterativeLinearSolvers/IncompleteLUT.h \
   /usr/include/eigen3/Eigen/src/IterativeLinearSolvers/IncompleteCholesky.h \
   /usr/include/eigen3/Eigen/SparseCholesky \
-  /opt/ros/humble/include/g2o/core/batch_stats.h \
-  /opt/ros/humble/include/g2o/core/linear_solver.h \
-  /opt/ros/humble/include/g2o/types/sba/types_six_dof_expmap.h \
-  /opt/ros/humble/include/g2o/types/sba/edge_project_psi2uv.h \
-  /opt/ros/humble/include/g2o/core/base_fixed_sized_edge.h \
-  /opt/ros/humble/include/g2o/EXTERNAL/ceres/fixed_array.h \
-  /opt/ros/humble/include/g2o/EXTERNAL/ceres/memory.h \
-  /opt/ros/humble/include/g2o/core/base_edge.h \
-  /opt/ros/humble/include/g2o/stuff/tuple_tools.h \
-  /opt/ros/humble/include/g2o/core/base_fixed_sized_edge.hpp \
-  /opt/ros/humble/include/g2o/types/slam3d/vertex_pointxyz.h \
-  /opt/ros/humble/include/g2o/core/base_vertex.h \
+  /usr/local/include/g2o/core/batch_stats.h \
+  /usr/local/include/g2o/core/linear_solver.h \
+  /usr/local/include/g2o/types/sba/types_six_dof_expmap.h \
+  /usr/local/include/g2o/types/sba/edge_project_psi2uv.h \
+  /usr/local/include/g2o/core/base_fixed_sized_edge.h \
+  /usr/local/include/g2o/core/base_edge.h \
+  /usr/local/include/g2o/autodiff/fixed_array.h \
+  /usr/local/include/g2o/autodiff/memory.h \
+  /usr/local/include/g2o/stuff/tuple_tools.h \
+  /usr/local/include/g2o/core/base_fixed_sized_edge.hpp \
+  /usr/local/include/g2o/types/slam3d/vertex_pointxyz.h \
+  /usr/local/include/g2o/core/base_vertex.h \
   /usr/include/eigen3/Eigen/Cholesky \
   /usr/include/eigen3/Eigen/Dense \
   /usr/include/eigen3/Eigen/Geometry \
@@ -749,27 +768,26 @@ CMakeFiles/slam_core.dir/src/map.cpp.o: /home/jaykumaran/Robotics/monocular_slam
   /usr/include/eigen3/Eigen/src/Eigenvalues/MatrixBaseEigenvalues.h \
   /usr/include/c++/11/stack \
   /usr/include/c++/11/bits/stl_stack.h \
-  /opt/ros/humble/include/g2o/core/creators.h \
-  /opt/ros/humble/include/g2o/core/base_vertex.hpp \
-  /opt/ros/humble/include/g2o/core/hyper_graph_action.h \
-  /opt/ros/humble/include/g2o/types/slam3d/g2o_types_slam3d_api.h \
-  /opt/ros/humble/include/g2o/types/sba/g2o_types_sba_api.h \
-  /opt/ros/humble/include/g2o/types/sba/parameter_cameraparameters.h \
-  /opt/ros/humble/include/g2o/core/parameter.h \
-  /opt/ros/humble/include/g2o/types/sba/vertex_se3_expmap.h \
-  /opt/ros/humble/include/g2o/types/slam3d/se3quat.h \
-  /opt/ros/humble/include/g2o/types/slam3d/se3_ops.h \
-  /opt/ros/humble/include/g2o/types/slam3d/se3_ops.hpp \
-  /opt/ros/humble/include/g2o/types/sba/edge_project_stereo_xyz.h \
-  /opt/ros/humble/include/g2o/core/base_binary_edge.h \
-  /opt/ros/humble/include/g2o/core/base_fixed_sized_edge.h \
-  /opt/ros/humble/include/g2o/types/sba/edge_project_stereo_xyz_onlypose.h \
-  /opt/ros/humble/include/g2o/core/base_unary_edge.h \
-  /opt/ros/humble/include/g2o/types/sba/edge_project_xyz.h \
-  /opt/ros/humble/include/g2o/types/sba/edge_project_xyz2uv.h \
-  /opt/ros/humble/include/g2o/types/sba/edge_project_xyz2uvu.h \
-  /opt/ros/humble/include/g2o/types/sba/edge_project_xyz_onlypose.h \
-  /opt/ros/humble/include/g2o/types/sba/edge_se3_expmap.h
+  /usr/local/include/g2o/core/base_vertex.hpp \
+  /usr/local/include/g2o/core/hyper_graph_action.h \
+  /usr/local/include/g2o/types/slam3d/g2o_types_slam3d_api.h \
+  /usr/local/include/g2o/types/sba/g2o_types_sba_api.h \
+  /usr/local/include/g2o/types/sba/parameter_cameraparameters.h \
+  /usr/local/include/g2o/core/parameter.h \
+  /usr/local/include/g2o/types/sba/vertex_se3_expmap.h \
+  /usr/local/include/g2o/types/slam3d/se3quat.h \
+  /usr/local/include/g2o/types/slam3d/se3_ops.h \
+  /usr/local/include/g2o/types/slam3d/se3_ops.hpp \
+  /usr/local/include/g2o/types/sba/edge_project_stereo_xyz.h \
+  /usr/local/include/g2o/core/base_binary_edge.h \
+  /usr/local/include/g2o/core/base_fixed_sized_edge.h \
+  /usr/local/include/g2o/types/sba/edge_project_stereo_xyz_onlypose.h \
+  /usr/local/include/g2o/core/base_unary_edge.h \
+  /usr/local/include/g2o/types/sba/edge_project_xyz.h \
+  /usr/local/include/g2o/types/sba/edge_project_xyz2uv.h \
+  /usr/local/include/g2o/types/sba/edge_project_xyz2uvu.h \
+  /usr/local/include/g2o/types/sba/edge_project_xyz_onlypose.h \
+  /usr/local/include/g2o/types/sba/edge_se3_expmap.h
 
 CMakeFiles/slam_core.dir/src/slam_processor.cpp.o: /home/jaykumaran/Robotics/monocular_slam_vo_ros/ros2_ws/src/slam_ros2/src/slam_processor.cpp \
   /usr/include/stdc-predef.h \
@@ -1634,6 +1652,14 @@ CMakeFiles/slam_core.dir/src/slam_processor.cpp.o: /home/jaykumaran/Robotics/mon
 
 /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/list_parameters__struct.hpp:
 
+/opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/get_parameters__struct.hpp:
+
+/opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/get_parameter_types__traits.hpp:
+
+/opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/get_parameter_types.hpp:
+
+/opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/describe_parameters__type_support.hpp:
+
 /usr/include/eigen3/Eigen/src/Core/Reverse.h:
 
 /usr/include/opencv4/opencv2/core/cvstd_wrapper.hpp:
@@ -1650,6 +1676,8 @@ CMakeFiles/slam_core.dir/src/slam_processor.cpp.o: /home/jaykumaran/Robotics/mon
 
 /usr/include/eigen3/Eigen/src/Core/VectorwiseOp.h:
 
+/usr/local/include/g2o/stuff/string_tools.h:
+
 /usr/include/eigen3/Eigen/src/misc/RealSvd2x2.h:
 
 /opt/ros/humble/include/rclcpp/rclcpp/rate.hpp:
@@ -1662,11 +1690,15 @@ CMakeFiles/slam_core.dir/src/slam_processor.cpp.o: /home/jaykumaran/Robotics/mon
 
 /opt/ros/humble/include/rclcpp/rclcpp/contexts/default_context.hpp:
 
+/usr/include/eigen3/Eigen/src/Core/ProductEvaluators.h:
+
 /usr/include/c++/11/unordered_set:
 
 /usr/include/c++/11/atomic:
 
 /usr/include/eigen3/Eigen/src/Core/products/Parallelizer.h:
+
+/usr/include/eigen3/Eigen/src/Core/SelfAdjointView.h:
 
 /usr/include/eigen3/Eigen/src/Core/TriangularMatrix.h:
 
@@ -1688,13 +1720,15 @@ CMakeFiles/slam_core.dir/src/slam_processor.cpp.o: /home/jaykumaran/Robotics/mon
 
 /usr/include/eigen3/Eigen/src/QR/HouseholderQR.h:
 
+/usr/local/include/g2o/core/base_fixed_sized_edge.h:
+
 /opt/ros/humble/include/rclcpp/rclcpp/timer.hpp:
 
 /usr/include/eigen3/Eigen/src/Core/SelfCwiseBinaryOp.h:
 
-/opt/ros/humble/include/g2o/core/base_edge.h:
-
 /usr/include/x86_64-linux-gnu/bits/types/sigset_t.h:
+
+/usr/include/c++/11/bits/cxxabi_forced.h:
 
 /usr/include/eigen3/Eigen/src/Core/NoAlias.h:
 
@@ -1710,9 +1744,11 @@ CMakeFiles/slam_core.dir/src/slam_processor.cpp.o: /home/jaykumaran/Robotics/mon
 
 /usr/include/eigen3/Eigen/src/Core/ArrayBase.h:
 
-/usr/include/eigen3/Eigen/src/plugins/MatrixCwiseUnaryOps.h:
+/opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/list_parameters.hpp:
 
-/opt/ros/humble/include/g2o/core/sparse_block_matrix.h:
+/usr/include/eigen3/Eigen/src/plugins/MatrixCwiseBinaryOps.h:
+
+/usr/include/eigen3/Eigen/src/plugins/MatrixCwiseUnaryOps.h:
 
 /usr/include/eigen3/Eigen/src/Core/MatrixBase.h:
 
@@ -1736,17 +1772,23 @@ CMakeFiles/slam_core.dir/src/slam_processor.cpp.o: /home/jaykumaran/Robotics/mon
 
 /usr/include/eigen3/Eigen/src/Core/arch/Default/Half.h:
 
+/usr/local/include/g2o/stuff/logger.h:
+
 /usr/include/eigen3/Eigen/src/Core/Visitor.h:
 
 /usr/include/c++/11/ext/new_allocator.h:
 
 /usr/include/eigen3/Eigen/src/Core/arch/SSE/MathFunctions.h:
 
+/usr/local/include/g2o/core/sparse_block_matrix.h:
+
+/usr/local/include/g2o/types/slam3d/se3_ops.hpp:
+
 /usr/include/eigen3/Eigen/src/Core/arch/SSE/TypeCasting.h:
 
-/opt/ros/humble/include/g2o/core/matrix_structure.h:
-
 /usr/include/eigen3/Eigen/src/IterativeLinearSolvers/IncompleteCholesky.h:
+
+/usr/local/include/g2o/autodiff/fixed_array.h:
 
 /usr/include/eigen3/Eigen/src/Core/arch/Default/GenericPacketMathFunctionsFwd.h:
 
@@ -1770,6 +1812,10 @@ CMakeFiles/slam_core.dir/src/slam_processor.cpp.o: /home/jaykumaran/Robotics/mon
 
 /usr/include/asm-generic/errno-base.h:
 
+/opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/get_parameters.hpp:
+
+/usr/include/opencv4/opencv2/video/background_segm.hpp:
+
 /opt/ros/humble/include/rclcpp/rclcpp/experimental/create_intra_process_buffer.hpp:
 
 /usr/include/eigen3/Eigen/src/Core/PermutationMatrix.h:
@@ -1788,6 +1834,8 @@ CMakeFiles/slam_core.dir/src/slam_processor.cpp.o: /home/jaykumaran/Robotics/mon
 
 /usr/include/c++/11/list:
 
+/usr/lib/gcc/x86_64-linux-gnu/11/include/mmintrin.h:
+
 /usr/include/eigen3/Eigen/src/Core/functors/BinaryFunctors.h:
 
 /usr/include/eigen3/Eigen/src/plugins/CommonCwiseUnaryOps.h:
@@ -1805,6 +1853,8 @@ CMakeFiles/slam_core.dir/src/slam_processor.cpp.o: /home/jaykumaran/Robotics/mon
 /opt/ros/humble/include/rosidl_runtime_cpp/rosidl_runtime_cpp/message_type_support_decl.hpp:
 
 /usr/include/opencv4/opencv2/objdetect/face.hpp:
+
+/usr/include/opencv4/opencv2/objdetect/detection_based_tracker.hpp:
 
 /usr/include/eigen3/Eigen/src/Core/products/TriangularSolverMatrix.h:
 
@@ -1876,8 +1926,6 @@ CMakeFiles/slam_core.dir/src/slam_processor.cpp.o: /home/jaykumaran/Robotics/mon
 
 /usr/include/eigen3/Eigen/src/Core/ConditionEstimator.h:
 
-/opt/ros/humble/include/g2o/types/sba/types_six_dof_expmap.h:
-
 /opt/ros/humble/include/rclcpp/rclcpp/type_adapter.hpp:
 
 /usr/include/eigen3/Eigen/src/Core/Map.h:
@@ -1908,15 +1956,13 @@ CMakeFiles/slam_core.dir/src/slam_processor.cpp.o: /home/jaykumaran/Robotics/mon
 
 /usr/include/eigen3/Eigen/src/Geometry/EulerAngles.h:
 
-/opt/ros/humble/include/g2o/core/base_vertex.h:
-
 /usr/include/eigen3/Eigen/src/Core/Block.h:
 
 /usr/include/opencv4/opencv2/flann/params.h:
 
 /usr/include/x86_64-linux-gnu/bits/types/clockid_t.h:
 
-/opt/ros/humble/include/g2o/types/sba/g2o_types_sba_api.h:
+/usr/include/opencv4/opencv2/flann/index_testing.h:
 
 /usr/include/opencv4/opencv2/flann/matrix.h:
 
@@ -1950,9 +1996,13 @@ CMakeFiles/slam_core.dir/src/slam_processor.cpp.o: /home/jaykumaran/Robotics/mon
 
 /usr/include/c++/11/bits/stl_tree.h:
 
+/usr/local/include/g2o/core/hyper_graph.h:
+
 /usr/include/opencv4/opencv2/dnn/version.hpp:
 
 /usr/include/x86_64-linux-gnu/c++/11/bits/c++io.h:
+
+/usr/include/stdc-predef.h:
 
 /usr/include/opencv4/opencv2/core/async.hpp:
 
@@ -1966,8 +2016,6 @@ CMakeFiles/slam_core.dir/src/slam_processor.cpp.o: /home/jaykumaran/Robotics/mon
 
 /usr/include/eigen3/Eigen/src/SparseCholesky/SimplicialCholesky.h:
 
-/opt/ros/humble/include/g2o/types/slam3d/se3_ops.h:
-
 /opt/ros/humble/include/libstatistics_collector/libstatistics_collector/topic_statistics_collector/received_message_age.hpp:
 
 /usr/include/opencv4/opencv2/flann/heap.h:
@@ -1977,8 +2025,6 @@ CMakeFiles/slam_core.dir/src/slam_processor.cpp.o: /home/jaykumaran/Robotics/mon
 /usr/include/opencv4/opencv2/dnn.hpp:
 
 /usr/include/opencv4/opencv2/core/hal/interface.h:
-
-/usr/include/opencv4/opencv2/imgproc.hpp:
 
 /usr/include/opencv4/opencv2/imgcodecs.hpp:
 
@@ -2020,13 +2066,11 @@ CMakeFiles/slam_core.dir/src/slam_processor.cpp.o: /home/jaykumaran/Robotics/mon
 
 /usr/include/c++/11/cwctype:
 
-/usr/include/c++/11/ext/aligned_buffer.h:
+/usr/include/spdlog/fmt/fmt.h:
 
 /usr/include/c++/11/bits/locale_classes.h:
 
 /usr/include/opencv4/opencv2/stitching/detail/camera.hpp:
-
-/opt/ros/humble/include/g2o/solvers/eigen/linear_solver_eigen.h:
 
 /usr/include/c++/11/bits/ios_base.h:
 
@@ -2044,13 +2088,25 @@ CMakeFiles/slam_core.dir/src/slam_processor.cpp.o: /home/jaykumaran/Robotics/mon
 
 /usr/include/opencv4/opencv2/core/mat.inl.hpp:
 
+/usr/local/include/g2o/core/block_solver.h:
+
+/usr/local/include/g2o/types/sba/parameter_cameraparameters.h:
+
 /usr/include/opencv4/opencv2/core/bufferpool.hpp:
 
 /opt/ros/humble/include/rmw/rmw/qos_profiles.h:
 
+/usr/include/eigen3/Eigen/src/Core/products/SelfadjointProduct.h:
+
 /usr/lib/gcc/x86_64-linux-gnu/11/include/float.h:
 
 /usr/include/locale.h:
+
+/opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/get_parameter_types__struct.hpp:
+
+/usr/include/eigen3/Eigen/src/Core/MapBase.h:
+
+/usr/include/opencv4/opencv2/core/saturate.hpp:
 
 /opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:
 
@@ -2062,8 +2118,6 @@ CMakeFiles/slam_core.dir/src/slam_processor.cpp.o: /home/jaykumaran/Robotics/mon
 
 /usr/include/eigen3/Eigen/src/Geometry/Quaternion.h:
 
-/opt/ros/humble/include/g2o/types/sba/parameter_cameraparameters.h:
-
 /usr/include/opencv4/opencv2/core/traits.hpp:
 
 /usr/include/eigen3/Eigen/src/Core/products/SelfadjointMatrixMatrix.h:
@@ -2071,8 +2125,6 @@ CMakeFiles/slam_core.dir/src/slam_processor.cpp.o: /home/jaykumaran/Robotics/mon
 /usr/include/eigen3/Eigen/src/Eigenvalues/RealQZ.h:
 
 /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/integer_range__struct.hpp:
-
-/opt/ros/humble/include/g2o/types/sba/edge_project_psi2uv.h:
 
 /usr/include/opencv4/opencv2/core/check.hpp:
 
@@ -2092,6 +2144,8 @@ CMakeFiles/slam_core.dir/src/slam_processor.cpp.o: /home/jaykumaran/Robotics/mon
 
 /opt/ros/humble/include/rcl_yaml_param_parser/rcl_yaml_param_parser/types.h:
 
+/usr/include/opencv4/opencv2/core/neon_utils.hpp:
+
 /usr/include/eigen3/Eigen/src/Core/CwiseBinaryOp.h:
 
 /usr/include/opencv4/opencv2/flann/all_indices.h:
@@ -2100,15 +2154,13 @@ CMakeFiles/slam_core.dir/src/slam_processor.cpp.o: /home/jaykumaran/Robotics/mon
 
 /usr/include/c++/11/pstl/glue_memory_defs.h:
 
-/opt/ros/humble/include/g2o/core/block_solver.h:
-
-/opt/ros/humble/include/g2o/core/linear_solver.h:
-
 /usr/include/c++/11/bits/atomic_lockfree_defines.h:
 
 /usr/include/opencv4/opencv2/videoio.hpp:
 
 /usr/include/opencv4/opencv2/core/cuda.inl.hpp:
+
+/usr/include/c++/11/queue:
 
 /home/jaykumaran/Robotics/monocular_slam_vo_ros/ros2_ws/src/slam_ros2/include/slam_ros2/slam_processor.hpp:
 
@@ -2146,11 +2198,11 @@ CMakeFiles/slam_core.dir/src/slam_processor.cpp.o: /home/jaykumaran/Robotics/mon
 
 /opt/ros/humble/include/rclcpp/rclcpp/node_interfaces/node_graph_interface.hpp:
 
-/usr/include/x86_64-linux-gnu/c++/11/bits/c++locale.h:
-
 /usr/lib/gcc/x86_64-linux-gnu/11/include/limits.h:
 
 /usr/include/c++/11/ext/type_traits.h:
+
+/usr/include/x86_64-linux-gnu/bits/posix2_lim.h:
 
 /usr/include/c++/11/bits/stl_algobase.h:
 
@@ -2159,10 +2211,6 @@ CMakeFiles/slam_core.dir/src/slam_processor.cpp.o: /home/jaykumaran/Robotics/mon
 /usr/include/eigen3/Eigen/src/SparseLU/SparseLU_Structs.h:
 
 /usr/include/c++/11/bits/stl_pair.h:
-
-/usr/include/opencv4/opencv2/stitching/detail/blenders.hpp:
-
-/usr/include/eigen3/Eigen/src/LU/arch/InverseSize4.h:
 
 /usr/include/eigen3/Eigen/src/Eigenvalues/Tridiagonalization.h:
 
@@ -2178,11 +2226,9 @@ CMakeFiles/slam_core.dir/src/slam_processor.cpp.o: /home/jaykumaran/Robotics/mon
 
 /usr/include/x86_64-linux-gnu/bits/atomic_wide_counter.h:
 
-/opt/ros/humble/include/g2o/types/slam3d/vertex_pointxyz.h:
+/usr/local/include/g2o/core/marginal_covariance_cholesky.h:
 
 /opt/ros/humble/include/rclcpp/rclcpp/publisher_base.hpp:
-
-/opt/ros/humble/include/g2o/stuff/g2o_stuff_api.h:
 
 /usr/include/opencv4/opencv2/stitching/detail/util.hpp:
 
@@ -2191,6 +2237,8 @@ CMakeFiles/slam_core.dir/src/slam_processor.cpp.o: /home/jaykumaran/Robotics/mon
 /usr/include/c++/11/bits/invoke.h:
 
 /usr/include/eigen3/Eigen/Cholesky:
+
+/usr/include/c++/11/bits/stl_relops.h:
 
 /usr/include/eigen3/Eigen/src/Core/AssignEvaluator.h:
 
@@ -2203,6 +2251,12 @@ CMakeFiles/slam_core.dir/src/slam_processor.cpp.o: /home/jaykumaran/Robotics/mon
 /usr/include/opencv4/opencv2/core/cvdef.h:
 
 /usr/include/c++/11/new:
+
+/usr/include/opencv4/opencv2/imgproc.hpp:
+
+/usr/local/include/g2o/core/optimization_algorithm.h:
+
+/usr/include/c++/11/climits:
 
 /usr/include/c++/11/bits/std_mutex.h:
 
@@ -2280,8 +2334,6 @@ CMakeFiles/slam_core.dir/src/slam_processor.cpp.o: /home/jaykumaran/Robotics/mon
 
 /usr/include/x86_64-linux-gnu/bits/mathcalls.h:
 
-/opt/ros/humble/include/g2o/core/g2o_core_api.h:
-
 /usr/include/opencv4/opencv2/core/version.hpp:
 
 /usr/include/c++/11/tuple:
@@ -2298,8 +2350,6 @@ CMakeFiles/slam_core.dir/src/slam_processor.cpp.o: /home/jaykumaran/Robotics/mon
 
 /usr/include/opencv4/opencv2/flann/kmeans_index.h:
 
-/opt/ros/humble/include/g2o/stuff/macros.h:
-
 /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter__struct.hpp:
 
 /usr/include/eigen3/Eigen/Core:
@@ -2315,8 +2365,6 @@ CMakeFiles/slam_core.dir/src/slam_processor.cpp.o: /home/jaykumaran/Robotics/mon
 /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/floating_point_range__traits.hpp:
 
 /usr/include/c++/11/bits/shared_ptr.h:
-
-/usr/include/x86_64-linux-gnu/bits/types/struct_timeval.h:
 
 /usr/include/x86_64-linux-gnu/bits/stdlib.h:
 
@@ -2348,7 +2396,13 @@ CMakeFiles/slam_core.dir/src/slam_processor.cpp.o: /home/jaykumaran/Robotics/mon
 
 /usr/include/x86_64-linux-gnu/bits/wordsize.h:
 
+/opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/get_parameter_types__builder.hpp:
+
+/usr/include/c++/11/pstl/execution_defs.h:
+
 /usr/include/c++/11/bits/uniform_int_dist.h:
+
+/usr/include/eigen3/Eigen/src/Cholesky/LLT.h:
 
 /usr/include/eigen3/Eigen/src/Core/DiagonalProduct.h:
 
@@ -2376,13 +2430,13 @@ CMakeFiles/slam_core.dir/src/slam_processor.cpp.o: /home/jaykumaran/Robotics/mon
 
 /usr/lib/gcc/x86_64-linux-gnu/11/include/syslimits.h:
 
+/usr/include/eigen3/Eigen/src/Householder/HouseholderSequence.h:
+
+/usr/include/c++/11/debug/debug.h:
+
 /usr/include/pthread.h:
 
 /usr/include/opencv4/opencv2/opencv_modules.hpp:
-
-/usr/include/c++/11/pstl/execution_defs.h:
-
-/opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/get_parameter_types__builder.hpp:
 
 /usr/include/c++/11/bits/locale_facets.h:
 
@@ -2397,6 +2451,8 @@ CMakeFiles/slam_core.dir/src/slam_processor.cpp.o: /home/jaykumaran/Robotics/mon
 /usr/include/endian.h:
 
 /usr/include/c++/11/bits/stl_iterator_base_funcs.h:
+
+/usr/include/c++/11/bits/streambuf.tcc:
 
 /usr/include/opencv4/opencv2/opencv.hpp:
 
@@ -2438,9 +2494,13 @@ CMakeFiles/slam_core.dir/src/slam_processor.cpp.o: /home/jaykumaran/Robotics/mon
 
 /usr/include/eigen3/Eigen/src/Core/Solve.h:
 
+/usr/local/include/g2o/core/parameter.h:
+
 /usr/include/c++/11/bits/exception_defines.h:
 
 /usr/include/x86_64-linux-gnu/c++/11/bits/os_defines.h:
+
+/usr/include/eigen3/Eigen/src/Core/Product.h:
 
 /usr/include/x86_64-linux-gnu/bits/types/__mbstate_t.h:
 
@@ -2458,11 +2518,17 @@ CMakeFiles/slam_core.dir/src/slam_processor.cpp.o: /home/jaykumaran/Robotics/mon
 
 /usr/include/c++/11/bits/basic_ios.tcc:
 
+/usr/local/include/g2o/autodiff/memory.h:
+
 /usr/include/c++/11/bits/enable_special_members.h:
+
+/usr/local/include/g2o/core/io_helper.h:
 
 /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter_value__builder.hpp:
 
 /usr/include/c++/11/ext/numeric_traits.h:
+
+/usr/local/include/g2o/types/slam3d/se3quat.h:
 
 /usr/include/x86_64-linux-gnu/bits/sigstack.h:
 
@@ -2490,6 +2556,8 @@ CMakeFiles/slam_core.dir/src/slam_processor.cpp.o: /home/jaykumaran/Robotics/mon
 
 /usr/include/features.h:
 
+/usr/local/include/g2o/core/linear_solver.h:
+
 /usr/include/eigen3/Eigen/src/Geometry/Hyperplane.h:
 
 /usr/include/eigen3/Eigen/src/Core/BooleanRedux.h:
@@ -2516,13 +2584,13 @@ CMakeFiles/slam_core.dir/src/slam_processor.cpp.o: /home/jaykumaran/Robotics/mon
 
 /usr/lib/gcc/x86_64-linux-gnu/11/include/emmintrin.h:
 
+/usr/local/include/g2o/types/sba/types_six_dof_expmap.h:
+
 /usr/lib/gcc/x86_64-linux-gnu/11/include/xmmintrin.h:
 
 /home/jaykumaran/Robotics/monocular_slam_vo_ros/ros2_ws/src/slam_ros2/include/slam_ros2/types.hpp:
 
 /usr/include/opencv4/opencv2/core/mat.hpp:
-
-/opt/ros/humble/include/g2o/EXTERNAL/ceres/fixed_array.h:
 
 /opt/ros/humble/include/rclcpp/rclcpp/any_subscription_callback.hpp:
 
@@ -2544,8 +2612,6 @@ CMakeFiles/slam_core.dir/src/slam_processor.cpp.o: /home/jaykumaran/Robotics/mon
 
 /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/set_parameters_result.hpp:
 
-/usr/include/opencv4/opencv2/stitching/detail/warpers.hpp:
-
 /usr/include/c++/11/cstdio:
 
 /usr/include/eigen3/Eigen/src/Core/IndexedView.h:
@@ -2553,8 +2619,6 @@ CMakeFiles/slam_core.dir/src/slam_processor.cpp.o: /home/jaykumaran/Robotics/mon
 /usr/include/eigen3/Eigen/src/Geometry/arch/Geometry_SIMD.h:
 
 /usr/include/x86_64-linux-gnu/bits/struct_mutex.h:
-
-/opt/ros/humble/include/g2o/core/parameter_container.h:
 
 /usr/include/c++/11/bits/basic_string.h:
 
@@ -2564,17 +2628,15 @@ CMakeFiles/slam_core.dir/src/slam_processor.cpp.o: /home/jaykumaran/Robotics/mon
 
 /usr/include/x86_64-linux-gnu/bits/floatn.h:
 
-/opt/ros/humble/include/rcpputils/rcpputils/time.hpp:
-
 /usr/include/eigen3/Eigen/src/Core/IO.h:
 
 /usr/include/x86_64-linux-gnu/bits/types/struct_itimerspec.h:
 
 /usr/include/opencv4/opencv2/flann/logger.h:
 
-/opt/ros/humble/include/g2o/core/base_fixed_sized_edge.hpp:
-
 /usr/include/x86_64-linux-gnu/bits/types/wint_t.h:
+
+/usr/local/include/g2o/core/base_fixed_sized_edge.hpp:
 
 /usr/include/signal.h:
 
@@ -2602,10 +2664,6 @@ CMakeFiles/slam_core.dir/src/slam_processor.cpp.o: /home/jaykumaran/Robotics/mon
 
 /usr/include/x86_64-linux-gnu/bits/pthreadtypes-arch.h:
 
-/usr/include/eigen3/Eigen/src/Householder/HouseholderSequence.h:
-
-/opt/ros/humble/include/g2o/core/robust_kernel.h:
-
 /usr/include/c++/11/bits/move.h:
 
 /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/set_parameters__struct.hpp:
@@ -2623,6 +2681,8 @@ CMakeFiles/slam_core.dir/src/slam_processor.cpp.o: /home/jaykumaran/Robotics/mon
 /usr/include/c++/11/bits/refwrap.h:
 
 /usr/include/c++/11/unordered_map:
+
+/usr/local/include/g2o/stuff/misc.h:
 
 /opt/ros/humble/include/rclcpp/rclcpp/subscription.hpp:
 
@@ -2646,6 +2706,8 @@ CMakeFiles/slam_core.dir/src/slam_processor.cpp.o: /home/jaykumaran/Robotics/mon
 
 /usr/include/c++/11/cmath:
 
+/usr/include/spdlog/details/registry.h:
+
 /opt/ros/humble/include/rclcpp/rclcpp/detail/qos_parameters.hpp:
 
 /usr/include/c++/11/bits/stl_function.h:
@@ -2658,17 +2720,11 @@ CMakeFiles/slam_core.dir/src/slam_processor.cpp.o: /home/jaykumaran/Robotics/mon
 
 /usr/include/x86_64-linux-gnu/bits/stdio.h:
 
-/usr/include/eigen3/Eigen/src/Core/SelfAdjointView.h:
-
-/opt/ros/humble/include/g2o/stuff/tuple_tools.h:
-
 /usr/include/c++/11/bits/hashtable.h:
 
 /usr/include/c++/11/bits/hashtable_policy.h:
 
 /usr/include/c++/11/typeinfo:
-
-/usr/include/opencv4/opencv2/photo.hpp:
 
 /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/list_parameters_result__builder.hpp:
 
@@ -2678,9 +2734,9 @@ CMakeFiles/slam_core.dir/src/slam_processor.cpp.o: /home/jaykumaran/Robotics/mon
 
 /usr/include/c++/11/bits/erase_if.h:
 
-/opt/ros/humble/include/g2o/core/sparse_optimizer.h:
-
 /usr/include/c++/11/vector:
+
+/usr/local/include/g2o/core/sparse_block_matrix_ccs.h:
 
 /usr/include/c++/11/bits/align.h:
 
@@ -2724,11 +2780,17 @@ CMakeFiles/slam_core.dir/src/slam_processor.cpp.o: /home/jaykumaran/Robotics/mon
 
 /usr/include/c++/11/locale:
 
+/opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/describe_parameters__struct.hpp:
+
+/usr/local/include/g2o/core/dynamic_aligned_buffer.hpp:
+
 /usr/include/opencv4/opencv2/ml.hpp:
 
 /usr/include/x86_64-linux-gnu/bits/uio_lim.h:
 
 /usr/include/eigen3/Eigen/src/SparseCore/SparseColEtree.h:
+
+/usr/local/include/g2o/core/base_edge.h:
 
 /usr/include/c++/11/pstl/glue_algorithm_defs.h:
 
@@ -2770,10 +2832,6 @@ CMakeFiles/slam_core.dir/src/slam_processor.cpp.o: /home/jaykumaran/Robotics/mon
 
 /usr/include/c++/11/ext/concurrence.h:
 
-/usr/include/opencv4/opencv2/core/neon_utils.hpp:
-
-/opt/ros/humble/include/g2o/core/jacobian_workspace.h:
-
 /usr/include/x86_64-linux-gnu/bits/sched.h:
 
 /usr/include/time.h:
@@ -2781,6 +2839,8 @@ CMakeFiles/slam_core.dir/src/slam_processor.cpp.o: /home/jaykumaran/Robotics/mon
 /usr/include/c++/11/bits/stl_bvector.h:
 
 /usr/include/x86_64-linux-gnu/bits/types/struct___jmp_buf_tag.h:
+
+/usr/include/fmt/format.h:
 
 /usr/include/x86_64-linux-gnu/c++/11/bits/atomic_word.h:
 
@@ -2799,10 +2859,6 @@ CMakeFiles/slam_core.dir/src/slam_processor.cpp.o: /home/jaykumaran/Robotics/mon
 /usr/include/x86_64-linux-gnu/bits/types/struct_sched_param.h:
 
 /usr/include/x86_64-linux-gnu/bits/types/error_t.h:
-
-/usr/include/opencv4/opencv2/flann/index_testing.h:
-
-/opt/ros/humble/include/g2o/core/hyper_graph.h:
 
 /usr/include/linux/errno.h:
 
@@ -2836,6 +2892,8 @@ CMakeFiles/slam_core.dir/src/slam_processor.cpp.o: /home/jaykumaran/Robotics/mon
 
 /usr/include/x86_64-linux-gnu/bits/flt-eval-method.h:
 
+/usr/local/include/g2o/core/eigen_types.h:
+
 /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/set_parameters_atomically__type_support.hpp:
 
 /usr/include/x86_64-linux-gnu/bits/wchar2.h:
@@ -2846,9 +2904,17 @@ CMakeFiles/slam_core.dir/src/slam_processor.cpp.o: /home/jaykumaran/Robotics/mon
 
 /usr/include/opencv4/opencv2/objdetect.hpp:
 
-/usr/include/opencv4/opencv2/flann/saving.h:
+/usr/include/c++/11/bits/stl_multiset.h:
 
-/opt/ros/humble/include/g2o/stuff/string_tools.h:
+/usr/include/x86_64-linux-gnu/gnu/stubs.h:
+
+/usr/include/x86_64-linux-gnu/bits/fp-fast.h:
+
+/usr/local/include/g2o/config.h:
+
+/usr/include/spdlog/version.h:
+
+/usr/include/opencv4/opencv2/flann/saving.h:
 
 /usr/include/x86_64-linux-gnu/gnu/stubs-64.h:
 
@@ -2861,6 +2927,10 @@ CMakeFiles/slam_core.dir/src/slam_processor.cpp.o: /home/jaykumaran/Robotics/mon
 /usr/include/c++/11/tr1/bessel_function.tcc:
 
 /usr/include/c++/11/tr1/beta_function.tcc:
+
+/usr/include/c++/11/ext/aligned_buffer.h:
+
+/usr/local/include/g2o/core/base_binary_edge.h:
 
 /usr/include/eigen3/Eigen/src/Core/products/GeneralBlockPanelKernel.h:
 
@@ -2875,6 +2945,10 @@ CMakeFiles/slam_core.dir/src/slam_processor.cpp.o: /home/jaykumaran/Robotics/mon
 /usr/include/x86_64-linux-gnu/bits/stdio_lim.h:
 
 /usr/include/c++/11/tr1/legendre_function.tcc:
+
+/usr/local/include/g2o/core/jacobian_workspace.h:
+
+/usr/include/fmt/core.h:
 
 /usr/include/c++/11/bits/memoryfwd.h:
 
@@ -2908,8 +2982,6 @@ CMakeFiles/slam_core.dir/src/slam_processor.cpp.o: /home/jaykumaran/Robotics/mon
 
 /usr/include/c++/11/bits/unique_ptr.h:
 
-/usr/include/c++/11/exception:
-
 /usr/include/eigen3/Eigen/src/Core/StlIterators.h:
 
 /usr/include/eigen3/Eigen/src/Core/GlobalFunctions.h:
@@ -2918,31 +2990,19 @@ CMakeFiles/slam_core.dir/src/slam_processor.cpp.o: /home/jaykumaran/Robotics/mon
 
 /usr/include/eigen3/Eigen/src/IterativeLinearSolvers/ConjugateGradient.h:
 
-/usr/include/stdc-predef.h:
-
-/opt/ros/humble/include/g2o/core/dynamic_aligned_buffer.hpp:
-
-/opt/ros/humble/include/rosidl_runtime_c/rosidl_runtime_c/visibility_control.h:
-
-/usr/include/eigen3/Eigen/src/Core/util/ForwardDeclarations.h:
-
-/opt/ros/humble/include/rclcpp/rclcpp/is_ros_compatible_type.hpp:
-
 /usr/include/c++/11/fstream:
 
-/opt/ros/humble/include/g2o/stuff/misc.h:
+/usr/local/include/g2o/stuff/sparse_helper.h:
 
-/opt/ros/humble/include/g2o/stuff/sparse_helper.h:
+/usr/include/eigen3/Eigen/src/SparseLU/SparseLU_Memory.h:
 
-/usr/include/eigen3/Eigen/src/OrderingMethods/Amd.h:
+/opt/ros/humble/include/builtin_interfaces/builtin_interfaces/msg/detail/duration__struct.hpp:
 
-/usr/include/eigen3/Eigen/src/IterativeLinearSolvers/BasicPreconditioners.h:
+/usr/local/include/g2o/core/matrix_operations.h:
 
-/usr/include/eigen3/Eigen/src/Core/Product.h:
+/usr/include/eigen3/Eigen/src/SparseCore/SparseCwiseBinaryOp.h:
 
-/opt/ros/humble/include/g2o/core/matrix_operations.h:
-
-/opt/ros/humble/include/g2o/core/eigen_types.h:
+/opt/ros/humble/include/rcl/rcl/visibility_control.h:
 
 /usr/include/eigen3/Eigen/SVD:
 
@@ -2968,6 +3028,10 @@ CMakeFiles/slam_core.dir/src/slam_processor.cpp.o: /home/jaykumaran/Robotics/mon
 
 /usr/include/eigen3/Eigen/src/QR/FullPivHouseholderQR.h:
 
+/usr/include/x86_64-linux-gnu/c++/11/bits/c++locale.h:
+
+/usr/local/include/g2o/types/sba/g2o_types_sba_api.h:
+
 /opt/ros/humble/include/rcl/rcl/logging_rosout.h:
 
 /usr/include/eigen3/Eigen/src/QR/ColPivHouseholderQR.h:
@@ -2975,10 +3039,6 @@ CMakeFiles/slam_core.dir/src/slam_processor.cpp.o: /home/jaykumaran/Robotics/mon
 /usr/include/eigen3/Eigen/src/QR/CompleteOrthogonalDecomposition.h:
 
 /opt/ros/humble/include/rmw/rmw/qos_policy_kind.h:
-
-/usr/include/eigen3/Eigen/src/SparseCore/SparseCwiseBinaryOp.h:
-
-/opt/ros/humble/include/rcl/rcl/visibility_control.h:
 
 /usr/include/c++/11/bits/locale_facets_nonio.tcc:
 
@@ -3012,73 +3072,107 @@ CMakeFiles/slam_core.dir/src/slam_processor.cpp.o: /home/jaykumaran/Robotics/mon
 
 /usr/include/eigen3/Eigen/src/Geometry/AlignedBox.h:
 
-/opt/ros/humble/include/g2o/core/sparse_block_matrix_ccs.h:
+/usr/local/include/g2o/core/matrix_structure.h:
 
-/usr/include/eigen3/Eigen/src/Core/Array.h:
+/usr/include/opencv4/opencv2/stitching/detail/warpers.hpp:
 
-/opt/ros/humble/include/rclcpp/rclcpp/qos.hpp:
+/usr/local/include/g2o/core/sparse_block_matrix.hpp:
 
-/opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/parameter_value.hpp:
+/usr/include/eigen3/Eigen/src/SparseCore/SparseBlock.h:
 
-/opt/ros/humble/include/g2o/core/sparse_block_matrix.hpp:
+/opt/ros/humble/include/rclcpp/rclcpp/duration.hpp:
 
-/opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/set_parameters__traits.hpp:
+/usr/local/include/g2o/core/openmp_mutex.h:
 
-/opt/ros/humble/include/rclcpp/rclcpp/node_interfaces/get_node_timers_interface.hpp:
+/usr/include/eigen3/Eigen/src/SparseCore/SparseAssign.h:
 
-/usr/include/eigen3/Eigen/src/Core/products/SelfadjointProduct.h:
+/usr/include/x86_64-linux-gnu/bits/types/struct_timeval.h:
 
-/opt/ros/humble/include/g2o/core/openmp_mutex.h:
+/usr/local/include/g2o/core/solver.h:
+
+/opt/ros/humble/include/rcutils/rcutils/snprintf.h:
 
 /opt/ros/humble/include/rcl/rcl/service.h:
 
-/usr/include/c++/11/debug/debug.h:
+/usr/include/opencv4/opencv2/stitching/detail/blenders.hpp:
 
-/opt/ros/humble/include/g2o/core/sparse_block_matrix_diagonal.h:
+/usr/local/include/g2o/core/sparse_block_matrix_diagonal.h:
 
-/opt/ros/humble/include/g2o/core/block_solver.hpp:
+/usr/local/include/g2o/core/block_solver.hpp:
 
-/usr/include/eigen3/Eigen/src/SVD/UpperBidiagonalization.h:
+/usr/include/spdlog/spdlog.h:
 
-/opt/ros/humble/include/rclcpp/rclcpp/parameter_client.hpp:
+/usr/include/spdlog/common.h:
 
-/usr/include/eigen3/Eigen/src/Cholesky/LLT.h:
+/usr/local/include/g2o/core/sparse_optimizer.h:
 
-/opt/ros/humble/include/g2o/stuff/timeutil.h:
+/opt/ros/humble/include/rclcpp/rclcpp/visibility_control.hpp:
 
-/opt/ros/humble/include/rmw/rmw/serialized_message.h:
+/usr/include/spdlog/tweakme.h:
 
-/usr/include/eigen3/Eigen/src/Core/ProductEvaluators.h:
+/usr/include/spdlog/details/null_mutex.h:
 
-/opt/ros/humble/include/g2o/core/batch_stats.h:
+/opt/ros/humble/include/builtin_interfaces/builtin_interfaces/msg/detail/time__builder.hpp:
 
-/usr/include/c++/11/climits:
+/usr/include/eigen3/Eigen/src/plugins/CommonCwiseBinaryOps.h:
 
-/opt/ros/humble/include/g2o/core/io_helper.h:
+/opt/ros/humble/include/rclcpp/rclcpp/intra_process_setting.hpp:
 
-/opt/ros/humble/include/rcl/rcl/guard_condition.h:
+/usr/include/c++/11/iterator:
 
-/opt/ros/humble/include/rclcpp/rclcpp/node_interfaces/node_topics_interface_traits.hpp:
+/usr/include/spdlog/logger.h:
 
-/usr/include/c++/11/queue:
+/usr/include/spdlog/details/log_msg.h:
 
-/opt/ros/humble/include/g2o/core/parameter.h:
+/usr/include/opencv4/opencv2/photo.hpp:
 
-/usr/include/c++/11/bits/cxxabi_forced.h:
+/usr/include/spdlog/details/log_msg_buffer.h:
 
-/opt/ros/humble/include/g2o/core/optimization_algorithm_levenberg.h:
+/usr/include/c++/11/exception:
 
-/opt/ros/humble/include/g2o/core/optimization_algorithm_with_hessian.h:
+/usr/include/spdlog/details/circular_q.h:
 
-/usr/include/c++/11/bits/stl_relops.h:
+/usr/include/spdlog/details/synchronous_factory.h:
 
-/opt/ros/humble/include/g2o/core/optimization_algorithm.h:
+/opt/ros/humble/include/rcutils/rcutils/types/hash_map.h:
 
-/opt/ros/humble/include/rclcpp/rclcpp/node_impl.hpp:
+/usr/include/eigen3/Eigen/src/LU/arch/InverseSize4.h:
 
-/opt/ros/humble/include/g2o/stuff/property.h:
+/usr/local/include/g2o/stuff/macros.h:
 
-/opt/ros/humble/include/g2o/core/robust_kernel_impl.h:
+/usr/include/x86_64-linux-gnu/bits/signum-arch.h:
+
+/usr/local/include/g2o/stuff/timeutil.h:
+
+/usr/local/include/g2o/core/batch_stats.h:
+
+/usr/local/include/g2o/core/optimizable_graph.h:
+
+/usr/local/include/g2o/core/parameter_container.h:
+
+/opt/ros/humble/include/rcl/rcl/node.h:
+
+/usr/local/include/g2o/core/optimization_algorithm_levenberg.h:
+
+/opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter__type_support.hpp:
+
+/usr/local/include/g2o/core/optimization_algorithm_with_hessian.h:
+
+/opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/get_parameter_types__type_support.hpp:
+
+/usr/local/include/g2o/stuff/property.h:
+
+/usr/include/eigen3/Eigen/SparseCholesky:
+
+/usr/local/include/g2o/core/robust_kernel_impl.h:
+
+/opt/ros/humble/include/rosidl_runtime_c/rosidl_runtime_c/sequence_bound.h:
+
+/usr/local/include/g2o/core/robust_kernel.h:
+
+/usr/local/include/g2o/solvers/eigen/linear_solver_eigen.h:
+
+/opt/ros/humble/include/libstatistics_collector/libstatistics_collector/topic_statistics_collector/topic_statistics_collector.hpp:
 
 /usr/include/eigen3/Eigen/Sparse:
 
@@ -3088,11 +3182,7 @@ CMakeFiles/slam_core.dir/src/slam_processor.cpp.o: /home/jaykumaran/Robotics/mon
 
 /usr/include/eigen3/Eigen/src/Core/products/TriangularMatrixMatrix.h:
 
-/opt/ros/humble/include/g2o/core/solver.h:
-
 /opt/ros/humble/include/builtin_interfaces/builtin_interfaces/msg/detail/time__traits.hpp:
-
-/usr/include/eigen3/Eigen/src/SparseCore/SparseAssign.h:
 
 /usr/include/eigen3/Eigen/src/SparseCore/SparseMatrix.h:
 
@@ -3100,11 +3190,7 @@ CMakeFiles/slam_core.dir/src/slam_processor.cpp.o: /home/jaykumaran/Robotics/mon
 
 /usr/include/eigen3/Eigen/src/SparseCore/MappedSparseMatrix.h:
 
-/opt/ros/humble/include/g2o/core/creators.h:
-
 /usr/include/x86_64-linux-gnu/bits/sigaction.h:
-
-/usr/include/eigen3/Eigen/src/SparseCore/SparseTranspose.h:
 
 /usr/include/eigen3/Eigen/src/SparseCore/SparseDot.h:
 
@@ -3112,21 +3198,21 @@ CMakeFiles/slam_core.dir/src/slam_processor.cpp.o: /home/jaykumaran/Robotics/mon
 
 /usr/include/eigen3/Eigen/src/SparseCore/SparseView.h:
 
+/opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/get_parameters__builder.hpp:
+
+/usr/include/eigen3/Eigen/src/SparseCore/SparseSparseProductWithPruning.h:
+
 /usr/include/eigen3/Eigen/src/SparseCore/SparseProduct.h:
 
 /opt/ros/humble/include/rcpputils/rcpputils/filesystem_helper.hpp:
 
 /usr/include/eigen3/Eigen/src/SparseCore/SparsePermutation.h:
 
-/usr/include/eigen3/Eigen/SparseCholesky:
+/usr/include/eigen3/Eigen/src/OrderingMethods/Amd.h:
 
-/usr/include/x86_64-linux-gnu/bits/signum-arch.h:
+/usr/include/eigen3/Eigen/src/IterativeLinearSolvers/BasicPreconditioners.h:
 
 /usr/include/eigen3/Eigen/src/SparseCholesky/SimplicialCholesky_impl.h:
-
-/usr/include/eigen3/Eigen/src/SparseLU/SparseLU_Memory.h:
-
-/opt/ros/humble/include/builtin_interfaces/builtin_interfaces/msg/detail/duration__struct.hpp:
 
 /usr/include/eigen3/Eigen/src/SparseLU/SparseLU_heap_relax_snode.h:
 
@@ -3147,6 +3233,14 @@ CMakeFiles/slam_core.dir/src/slam_processor.cpp.o: /home/jaykumaran/Robotics/mon
 /usr/include/eigen3/Eigen/src/SparseLU/SparseLU_copy_to_ucol.h:
 
 /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/list_parameters_result.hpp:
+
+/opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/get_parameters__traits.hpp:
+
+/usr/include/eigen3/Eigen/src/Core/util/SymbolicIndex.h:
+
+/usr/include/x86_64-linux-gnu/c++/11/bits/error_constants.h:
+
+/usr/include/eigen3/Eigen/src/SparseLU/SparseLU_Utils.h:
 
 /usr/include/opencv4/opencv2/flann/miniflann.hpp:
 
@@ -3174,15 +3268,15 @@ CMakeFiles/slam_core.dir/src/slam_processor.cpp.o: /home/jaykumaran/Robotics/mon
 
 /usr/include/eigen3/Eigen/src/IterativeLinearSolvers/IncompleteLUT.h:
 
-/usr/include/x86_64-linux-gnu/bits/posix2_lim.h:
+/usr/local/include/g2o/stuff/tuple_tools.h:
 
-/opt/ros/humble/include/g2o/core/base_fixed_sized_edge.h:
+/usr/local/include/g2o/types/slam3d/vertex_pointxyz.h:
+
+/usr/local/include/g2o/core/base_vertex.h:
 
 /usr/include/asm-generic/errno.h:
 
 /usr/include/eigen3/Eigen/Dense:
-
-/opt/ros/humble/include/g2o/config.h:
 
 /usr/include/alloca.h:
 
@@ -3206,53 +3300,49 @@ CMakeFiles/slam_core.dir/src/slam_processor.cpp.o: /home/jaykumaran/Robotics/mon
 
 /usr/include/c++/11/bits/stl_stack.h:
 
-/opt/ros/humble/include/g2o/core/base_vertex.hpp:
+/usr/local/include/g2o/core/base_vertex.hpp:
 
-/usr/include/opencv4/opencv2/objdetect/detection_based_tracker.hpp:
+/opt/ros/humble/include/rclcpp/rclcpp/executors/static_executor_entities_collector.hpp:
 
-/opt/ros/humble/include/g2o/types/slam3d/g2o_types_slam3d_api.h:
+/usr/include/eigen3/Eigen/src/SparseCore/SparseTranspose.h:
 
-/usr/include/x86_64-linux-gnu/bits/getopt_posix.h:
+/usr/local/include/g2o/core/hyper_graph_action.h:
 
-/opt/ros/humble/include/g2o/types/sba/vertex_se3_expmap.h:
+/usr/local/include/g2o/types/sba/vertex_se3_expmap.h:
 
-/opt/ros/humble/include/g2o/types/slam3d/se3quat.h:
+/usr/local/include/g2o/types/slam3d/se3_ops.h:
 
-/opt/ros/humble/include/g2o/types/slam3d/se3_ops.hpp:
+/usr/local/include/g2o/types/sba/edge_project_stereo_xyz.h:
 
-/usr/include/eigen3/Eigen/src/SparseCore/SparseDiagonalProduct.h:
+/usr/local/include/g2o/types/sba/edge_project_stereo_xyz_onlypose.h:
 
-/usr/include/eigen3/Eigen/src/SparseLU/SparseLU_column_dfs.h:
+/usr/local/include/g2o/core/base_unary_edge.h:
 
-/usr/include/c++/11/bits/stl_list.h:
+/usr/include/x86_64-linux-gnu/bits/types/__sigval_t.h:
 
-/opt/ros/humble/include/rclcpp/rclcpp/topic_statistics_state.hpp:
+/usr/local/include/g2o/types/sba/edge_project_xyz.h:
 
-/usr/include/c++/11/bits/stl_multiset.h:
+/opt/ros/humble/include/statistics_msgs/statistics_msgs/msg/detail/metrics_message__type_support.hpp:
 
-/usr/include/x86_64-linux-gnu/gnu/stubs.h:
+/usr/local/include/g2o/types/sba/edge_project_xyz2uv.h:
 
-/usr/include/x86_64-linux-gnu/bits/fp-fast.h:
+/opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/set_parameters__traits.hpp:
 
-/opt/ros/humble/include/g2o/types/sba/edge_project_stereo_xyz.h:
+/opt/ros/humble/include/rclcpp/rclcpp/node_interfaces/get_node_timers_interface.hpp:
 
-/usr/lib/gcc/x86_64-linux-gnu/11/include/mmintrin.h:
+/opt/ros/humble/include/rcpputils/rcpputils/time.hpp:
 
-/opt/ros/humble/include/g2o/types/sba/edge_project_stereo_xyz_onlypose.h:
+/usr/local/include/g2o/types/sba/edge_project_xyz2uvu.h:
 
-/opt/ros/humble/include/g2o/core/base_unary_edge.h:
+/opt/ros/humble/include/rclcpp/rclcpp/node_options.hpp:
 
-/opt/ros/humble/include/g2o/types/sba/edge_project_xyz.h:
+/opt/ros/humble/include/rclcpp/rclcpp/create_publisher.hpp:
 
-/opt/ros/humble/include/g2o/types/sba/edge_project_xyz2uv.h:
+/opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/describe_parameters__builder.hpp:
 
-/usr/include/c++/11/bits/streambuf.tcc:
+/usr/local/include/g2o/types/sba/edge_project_xyz_onlypose.h:
 
-/opt/ros/humble/include/g2o/types/sba/edge_project_xyz2uvu.h:
-
-/opt/ros/humble/include/g2o/types/sba/edge_project_xyz_onlypose.h:
-
-/opt/ros/humble/include/g2o/types/sba/edge_se3_expmap.h:
+/usr/local/include/g2o/types/sba/edge_se3_expmap.h:
 
 /usr/include/eigen3/Eigen/src/Core/SolverBase.h:
 
@@ -3267,10 +3357,6 @@ CMakeFiles/slam_core.dir/src/slam_processor.cpp.o: /home/jaykumaran/Robotics/mon
 /usr/include/c++/11/string_view:
 
 /usr/include/x86_64-linux-gnu/bits/signum-generic.h:
-
-/opt/ros/humble/include/g2o/core/base_binary_edge.h:
-
-/usr/include/x86_64-linux-gnu/bits/types/__sigval_t.h:
 
 /usr/include/eigen3/Eigen/src/Core/util/IndexedViewHelper.h:
 
@@ -3296,7 +3382,11 @@ CMakeFiles/slam_core.dir/src/slam_processor.cpp.o: /home/jaykumaran/Robotics/mon
 
 /usr/include/eigen3/Eigen/src/Eigenvalues/SelfAdjointEigenSolver.h:
 
+/usr/local/include/g2o/types/slam3d/g2o_types_slam3d_api.h:
+
 /usr/include/x86_64-linux-gnu/bits/types/stack_t.h:
+
+/usr/local/include/g2o/stuff/g2o_stuff_api.h:
 
 /usr/include/x86_64-linux-gnu/sys/ucontext.h:
 
@@ -3315,6 +3405,8 @@ CMakeFiles/slam_core.dir/src/slam_processor.cpp.o: /home/jaykumaran/Robotics/mon
 /usr/include/opencv4/opencv2/flann/random.h:
 
 /usr/include/x86_64-linux-gnu/bits/confname.h:
+
+/usr/include/x86_64-linux-gnu/bits/getopt_posix.h:
 
 /usr/include/x86_64-linux-gnu/bits/unistd.h:
 
@@ -3368,13 +3460,23 @@ CMakeFiles/slam_core.dir/src/slam_processor.cpp.o: /home/jaykumaran/Robotics/mon
 
 /opt/ros/humble/include/rosidl_runtime_cpp/rosidl_runtime_cpp/traits.hpp:
 
+/opt/ros/humble/include/rcl/rcl/guard_condition.h:
+
+/opt/ros/humble/include/rclcpp/rclcpp/node_interfaces/node_topics_interface_traits.hpp:
+
 /usr/include/eigen3/Eigen/src/Core/util/Meta.h:
+
+/usr/include/spdlog/details/backtracer.h:
 
 /usr/lib/gcc/x86_64-linux-gnu/11/include/stdbool.h:
 
 /opt/ros/humble/include/rcutils/rcutils/testing/fault_injection.h:
 
 /opt/ros/humble/include/rcutils/rcutils/types/rcutils_ret.h:
+
+/opt/ros/humble/include/rclcpp/rclcpp/generic_subscription.hpp:
+
+/opt/ros/humble/include/rmw/rmw/init.h:
 
 /opt/ros/humble/include/rmw/rmw/domain_id.h:
 
@@ -3400,13 +3502,9 @@ CMakeFiles/slam_core.dir/src/slam_processor.cpp.o: /home/jaykumaran/Robotics/mon
 
 /opt/ros/humble/include/rclcpp/rclcpp/type_support_decl.hpp:
 
-/opt/ros/humble/include/g2o/core/optimizable_graph.h:
-
 /opt/ros/humble/include/rcl/rcl/types.h:
 
 /opt/ros/humble/include/rcutils/rcutils/error_handling.h:
-
-/opt/ros/humble/include/rcutils/rcutils/snprintf.h:
 
 /opt/ros/humble/include/rcutils/rcutils/time.h:
 
@@ -3427,8 +3525,6 @@ CMakeFiles/slam_core.dir/src/slam_processor.cpp.o: /home/jaykumaran/Robotics/mon
 /opt/ros/humble/include/statistics_msgs/statistics_msgs/msg/rosidl_generator_cpp__visibility_control.hpp:
 
 /opt/ros/humble/include/rclcpp/rclcpp/detail/resolve_enable_topic_statistics.hpp:
-
-/opt/ros/humble/include/rcutils/rcutils/types/hash_map.h:
 
 /opt/ros/humble/include/rmw/rmw/events_statuses/events_statuses.h:
 
@@ -3452,7 +3548,11 @@ CMakeFiles/slam_core.dir/src/slam_processor.cpp.o: /home/jaykumaran/Robotics/mon
 
 /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/list_parameters_result__type_support.hpp:
 
+/opt/ros/humble/include/rmw/rmw/serialized_message.h:
+
 /opt/ros/humble/include/rmw/rmw/subscription_content_filter_options.h:
+
+/usr/local/include/g2o/types/sba/edge_project_psi2uv.h:
 
 /opt/ros/humble/include/rmw/rmw/time.h:
 
@@ -3474,15 +3574,15 @@ CMakeFiles/slam_core.dir/src/slam_processor.cpp.o: /home/jaykumaran/Robotics/mon
 
 /opt/ros/humble/include/rosidl_runtime_c/rosidl_runtime_c/service_type_support_struct.h:
 
-/usr/include/opencv4/opencv2/video/background_segm.hpp:
-
-/opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/get_parameters.hpp:
+/opt/ros/humble/include/rosidl_runtime_c/rosidl_runtime_c/visibility_control.h:
 
 /opt/ros/humble/include/rcl/rcl/event_callback.h:
 
 /opt/ros/humble/include/tracetools/tracetools/tracetools.h:
 
-/opt/ros/humble/include/rcl/rcl/node.h:
+/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:
+
+/opt/ros/humble/include/rcl/rcl/domain_id.h:
 
 /usr/include/eigen3/Eigen/src/SparseLU/SparseLU_pruneL.h:
 
@@ -3495,8 +3595,6 @@ CMakeFiles/slam_core.dir/src/slam_processor.cpp.o: /home/jaykumaran/Robotics/mon
 /usr/include/c++/11/tr1/gamma.tcc:
 
 /opt/ros/humble/include/rmw/rmw/message_sequence.h:
-
-/opt/ros/humble/include/rosidl_runtime_c/rosidl_runtime_c/sequence_bound.h:
 
 /usr/include/x86_64-linux-gnu/bits/types/locale_t.h:
 
@@ -3515,8 +3613,6 @@ CMakeFiles/slam_core.dir/src/slam_processor.cpp.o: /home/jaykumaran/Robotics/mon
 /usr/include/c++/11/typeindex:
 
 /opt/ros/humble/include/rclcpp/rclcpp/init_options.hpp:
-
-/opt/ros/humble/include/rclcpp/rclcpp/visibility_control.hpp:
 
 /usr/include/c++/11/bits/ostream_insert.h:
 
@@ -3542,15 +3638,9 @@ CMakeFiles/slam_core.dir/src/slam_processor.cpp.o: /home/jaykumaran/Robotics/mon
 
 /usr/include/x86_64-linux-gnu/bits/select2.h:
 
-/opt/ros/humble/include/g2o/core/hyper_graph_action.h:
-
 /opt/ros/humble/include/rcl/rcl/network_flow_endpoints.h:
 
 /opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:
-
-/opt/ros/humble/include/rcl/rcl/domain_id.h:
-
-/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:
 
 /usr/include/c++/11/variant:
 
@@ -3565,8 +3655,6 @@ CMakeFiles/slam_core.dir/src/slam_processor.cpp.o: /home/jaykumaran/Robotics/mon
 /usr/include/eigen3/Eigen/IterativeLinearSolvers:
 
 /opt/ros/humble/include/rmw/rmw/error_handling.h:
-
-/usr/include/c++/11/iterator:
 
 /opt/ros/humble/include/rcl/rcl/macros.h:
 
@@ -3602,9 +3690,11 @@ CMakeFiles/slam_core.dir/src/slam_processor.cpp.o: /home/jaykumaran/Robotics/mon
 
 /opt/ros/humble/include/rclcpp/rclcpp/event.hpp:
 
-/usr/include/eigen3/Eigen/src/SparseCore/SparseBlock.h:
+/usr/include/eigen3/Eigen/src/Core/Array.h:
 
-/opt/ros/humble/include/rclcpp/rclcpp/duration.hpp:
+/opt/ros/humble/include/rclcpp/rclcpp/qos.hpp:
+
+/opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/parameter_value.hpp:
 
 /opt/ros/humble/include/builtin_interfaces/builtin_interfaces/msg/duration.hpp:
 
@@ -3621,6 +3711,8 @@ CMakeFiles/slam_core.dir/src/slam_processor.cpp.o: /home/jaykumaran/Robotics/mon
 /usr/include/eigen3/Eigen/src/Core/arch/Default/Settings.h:
 
 /usr/include/c++/11/numeric:
+
+/usr/local/include/g2o/core/g2o_core_api.h:
 
 /opt/ros/humble/include/rosidl_runtime_cpp/rosidl_typesupport_cpp/message_type_support.hpp:
 
@@ -3672,19 +3764,11 @@ CMakeFiles/slam_core.dir/src/slam_processor.cpp.o: /home/jaykumaran/Robotics/mon
 
 /opt/ros/humble/include/rclcpp/rclcpp/time.hpp:
 
-/opt/ros/humble/include/g2o/EXTERNAL/ceres/memory.h:
-
 /usr/include/ctype.h:
 
 /opt/ros/humble/include/rclcpp/rclcpp/node_interfaces/node_base_interface.hpp:
 
 /opt/ros/humble/include/builtin_interfaces/builtin_interfaces/msg/detail/time__struct.hpp:
-
-/opt/ros/humble/include/builtin_interfaces/builtin_interfaces/msg/detail/time__builder.hpp:
-
-/usr/include/eigen3/Eigen/src/plugins/CommonCwiseBinaryOps.h:
-
-/opt/ros/humble/include/rclcpp/rclcpp/intra_process_setting.hpp:
 
 /opt/ros/humble/include/builtin_interfaces/builtin_interfaces/msg/detail/time__type_support.hpp:
 
@@ -3701,6 +3785,14 @@ CMakeFiles/slam_core.dir/src/slam_processor.cpp.o: /home/jaykumaran/Robotics/mon
 /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/set_parameters_result__builder.hpp:
 
 /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/set_parameters_result__traits.hpp:
+
+/usr/include/eigen3/Eigen/src/SparseCore/SparseDiagonalProduct.h:
+
+/usr/include/eigen3/Eigen/src/SparseLU/SparseLU_column_dfs.h:
+
+/usr/include/c++/11/bits/stl_list.h:
+
+/opt/ros/humble/include/rclcpp/rclcpp/topic_statistics_state.hpp:
 
 /opt/ros/humble/include/rclcpp/rclcpp/subscription_traits.hpp:
 
@@ -3726,15 +3818,9 @@ CMakeFiles/slam_core.dir/src/slam_processor.cpp.o: /home/jaykumaran/Robotics/mon
 
 /opt/ros/humble/include/statistics_msgs/statistics_msgs/msg/detail/metrics_message__traits.hpp:
 
-/opt/ros/humble/include/statistics_msgs/statistics_msgs/msg/detail/metrics_message__type_support.hpp:
-
 /opt/ros/humble/include/libstatistics_collector/libstatistics_collector/moving_average_statistics/types.hpp:
 
-/opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/describe_parameters__struct.hpp:
-
 /opt/ros/humble/include/libstatistics_collector/libstatistics_collector/topic_statistics_collector/constants.hpp:
-
-/opt/ros/humble/include/libstatistics_collector/libstatistics_collector/topic_statistics_collector/topic_statistics_collector.hpp:
 
 /opt/ros/humble/include/libstatistics_collector/libstatistics_collector/collector/collector.hpp:
 
@@ -3754,7 +3840,9 @@ CMakeFiles/slam_core.dir/src/slam_processor.cpp.o: /home/jaykumaran/Robotics/mon
 
 /opt/ros/humble/include/rclcpp/rclcpp/get_message_type_support_handle.hpp:
 
-/opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/describe_parameters__type_support.hpp:
+/usr/include/eigen3/Eigen/src/Core/util/ForwardDeclarations.h:
+
+/opt/ros/humble/include/rclcpp/rclcpp/is_ros_compatible_type.hpp:
 
 /opt/ros/humble/include/rclcpp/rclcpp/loaned_message.hpp:
 
@@ -3792,15 +3880,9 @@ CMakeFiles/slam_core.dir/src/slam_processor.cpp.o: /home/jaykumaran/Robotics/mon
 
 /opt/ros/humble/include/rclcpp/rclcpp/subscription_factory.hpp:
 
-/opt/ros/humble/include/rmw/rmw/init.h:
-
-/opt/ros/humble/include/rclcpp/rclcpp/generic_subscription.hpp:
-
 /opt/ros/humble/include/rclcpp/rclcpp/node_interfaces/node_clock_interface.hpp:
 
 /opt/ros/humble/include/rclcpp/rclcpp/node_interfaces/node_logging_interface.hpp:
-
-/opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter__type_support.hpp:
 
 /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter_type__builder.hpp:
 
@@ -3818,9 +3900,7 @@ CMakeFiles/slam_core.dir/src/slam_processor.cpp.o: /home/jaykumaran/Robotics/mon
 
 /opt/ros/humble/include/rclcpp/rclcpp/node_interfaces/node_waitables_interface.hpp:
 
-/opt/ros/humble/include/rclcpp/rclcpp/node_options.hpp:
-
-/opt/ros/humble/include/rclcpp/rclcpp/create_publisher.hpp:
+/opt/ros/humble/include/rclcpp/rclcpp/node_impl.hpp:
 
 /opt/ros/humble/include/rclcpp/rclcpp/create_service.hpp:
 
@@ -3838,40 +3918,8 @@ CMakeFiles/slam_core.dir/src/slam_processor.cpp.o: /home/jaykumaran/Robotics/mon
 
 /opt/ros/humble/include/rclcpp/rclcpp/executors/static_single_threaded_executor.hpp:
 
-/opt/ros/humble/include/rclcpp/rclcpp/executors/static_executor_entities_collector.hpp:
-
 /opt/ros/humble/include/rclcpp/rclcpp/experimental/executable_list.hpp:
 
-/opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/describe_parameters__builder.hpp:
+/usr/include/eigen3/Eigen/src/SVD/UpperBidiagonalization.h:
 
-/opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/get_parameter_types.hpp:
-
-/usr/include/eigen3/Eigen/src/Core/MapBase.h:
-
-/usr/include/opencv4/opencv2/core/saturate.hpp:
-
-/opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/get_parameter_types__struct.hpp:
-
-/opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/get_parameter_types__traits.hpp:
-
-/opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/get_parameter_types__type_support.hpp:
-
-/opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/get_parameters__struct.hpp:
-
-/opt/ros/humble/include/g2o/core/marginal_covariance_cholesky.h:
-
-/usr/include/eigen3/Eigen/src/SparseCore/SparseSparseProductWithPruning.h:
-
-/opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/get_parameters__builder.hpp:
-
-/usr/include/eigen3/Eigen/src/Core/util/SymbolicIndex.h:
-
-/usr/include/x86_64-linux-gnu/c++/11/bits/error_constants.h:
-
-/usr/include/eigen3/Eigen/src/SparseLU/SparseLU_Utils.h:
-
-/opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/get_parameters__traits.hpp:
-
-/usr/include/eigen3/Eigen/src/plugins/MatrixCwiseBinaryOps.h:
-
-/opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/list_parameters.hpp:
+/opt/ros/humble/include/rclcpp/rclcpp/parameter_client.hpp:
