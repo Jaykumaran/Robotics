@@ -27,7 +27,13 @@ After running the launch file, you should see the following in RViz:
 2.  A green line (`/slam/trajectory`) showing the camera's estimated path.
 3.  A set of axes (`TF: /map -> /camera_link`) representing the camera's current position and orientation.
 
-![alt text](kitti_slam.gif)
+![alt text](readme_media/kitti_984_og.gif)
+
+![alt text](readme_media/kitti_slam.gif)
+
+![alt text](readme_media/kitti_984_loop_closure.gif)
+
+
 
 ---
 
