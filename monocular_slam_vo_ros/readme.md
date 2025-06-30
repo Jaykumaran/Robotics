@@ -1,5 +1,7 @@
 <h1 align="center">ROS2 Monocular Visual SLAM</h1>
 
+Disclaimer: Gemini 2.5 Pro Assisted Code
+
 ### Problem Statement
 
 This ROS2 package (`slam_ros2`) implements a feature-based monocular Visual SLAM (Simultaneous Localization and Mapping) system. The project processes a simulated camera feed from a video file, reconstructs the camera's trajectory, and builds a 3D map of the environment. The core SLAM logic is self-contained and communicates with the ROS2 ecosystem for data input and visualization.

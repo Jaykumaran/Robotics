@@ -1,5 +1,7 @@
 <h1 align="center">ROS Object Tracking Package</h1>
 
+Disclaimer: Gemini 2.5 Pro Assisted Code
+
 ### Problem Statement
 
 A ROS2 Package (`sim_cam_pkg`) which implements object detection and tracking system. It starts with a simulated camera feed from a video file, performs object detection using YOLO11n , then object tracking across frames with OpenCV Kalman filter and finally a visualization node to display results using rqt_image_viewer. 
