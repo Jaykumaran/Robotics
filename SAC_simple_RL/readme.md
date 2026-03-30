@@ -1,5 +1,5 @@
 This is the very first training of a SAC agent from scratch 
-- To reach a goal based on distance to goal
+- Dense Reward: Agent gets punished for being away from the goal distance
 - MSE Loss
 
 Initial loss: 2060
