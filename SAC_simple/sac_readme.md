@@ -4,3 +4,5 @@ This is the very first training of a SAC agent from scratch
 
 Initial loss: 2060
 Best loss: 500 @ 100 episodes
+
+<img src="sac_simple.gif">
